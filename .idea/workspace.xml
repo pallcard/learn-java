@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cf2d565-69e9-4975-abf8-a65192c71fc9" name="Default Changelist" comment="" />
+    <list default="true" id="0cf2d565-69e9-4975-abf8-a65192c71fc9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wishhust/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wishhust/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wishhust/leetcode/MajorityElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wishhust/leetcode/MajorityElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wishhust/leetcode/SingleNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wishhust/leetcode/SingleNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wishhust/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wishhust/test/Test.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +22,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +33,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1V9DYnrYuHU4eKKkBj01rbG5F3n" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -31,14 +43,28 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15136719" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="google-java-format.settings" />
   </component>
-  <component name="RunManager" selected="Application.MajorityElement">
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="InetAddressExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wishhust.http.InetAddressExample" />
+      <module name="learn-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wishhust.http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wishhust.leetcode.MajorityElement" />
       <module name="learn-java" />
@@ -52,12 +78,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wishhust.leetcode.SingleNumber" />
+    <configuration name="RedisDelayingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wishhust.redis.RedisDelayingQueue" />
       <module name="learn-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wishhust.leetcode.*" />
+          <option name="PATTERN" value="com.wishhust.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisWithReentrantLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wishhust.redis.RedisWithReentrantLock" />
+      <module name="learn-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wishhust.redis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,9 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MajorityElement" />
-        <item itemvalue="Application.SingleNumber" />
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.InetAddressExample" />
+        <item itemvalue="Application.RedisDelayingQueue" />
+        <item itemvalue="Application.RedisWithReentrantLock" />
+        <item itemvalue="Application.MajorityElement" />
       </list>
     </recent_temporary>
   </component>
@@ -109,7 +150,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576656466543</updated>
       <workItem from="1576656470008" duration="961000" />
-      <workItem from="1576669406900" duration="4255000" />
+      <workItem from="1576669406900" duration="18477000" />
     </task>
     <servers />
   </component>
@@ -117,46 +158,54 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="570" y="271" key="#Project_Structure" timestamp="1576721970206">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="570" y="271" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1576721970206" />
     <state x="946" y="658" width="471" height="342" key="#xdebugger.evaluate" timestamp="1576671454392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="946" y="658" width="471" height="342" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1576671454392" />
-    <state width="1544" height="219" key="GridCell.Tab.0.bottom" timestamp="1576673271407">
+    <state width="584" height="273" key="GridCell.Tab.0.bottom" timestamp="1576756069271">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1544" height="219" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576673271407" />
-    <state width="1544" height="219" key="GridCell.Tab.0.center" timestamp="1576673271407">
+    <state width="584" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576756069271" />
+    <state width="584" height="273" key="GridCell.Tab.0.center" timestamp="1576756069271">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1544" height="219" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576673271407" />
-    <state width="1544" height="219" key="GridCell.Tab.0.left" timestamp="1576673271407">
+    <state width="584" height="273" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576756069271" />
+    <state width="584" height="273" key="GridCell.Tab.0.left" timestamp="1576756069271">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1544" height="219" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576673271407" />
-    <state width="1544" height="219" key="GridCell.Tab.0.right" timestamp="1576673271407">
+    <state width="584" height="273" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576756069271" />
+    <state width="584" height="273" key="GridCell.Tab.0.right" timestamp="1576756069271">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1544" height="219" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576673271407" />
-    <state width="1544" height="219" key="GridCell.Tab.1.bottom" timestamp="1576673271457">
+    <state width="584" height="273" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576756069271" />
+    <state width="1169" height="247" key="GridCell.Tab.1.bottom" timestamp="1576750937825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1544" height="219" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576673271457" />
-    <state width="1544" height="219" key="GridCell.Tab.1.center" timestamp="1576673271457">
+    <state width="1169" height="247" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576750937825" />
+    <state width="1169" height="247" key="GridCell.Tab.1.center" timestamp="1576750937825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1544" height="219" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576673271457" />
-    <state width="1544" height="219" key="GridCell.Tab.1.left" timestamp="1576673271457">
+    <state width="1169" height="247" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576750937825" />
+    <state width="1169" height="247" key="GridCell.Tab.1.left" timestamp="1576750937825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1544" height="219" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576673271457" />
-    <state width="1544" height="219" key="GridCell.Tab.1.right" timestamp="1576673271457">
+    <state width="1169" height="247" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576750937825" />
+    <state width="1169" height="247" key="GridCell.Tab.1.right" timestamp="1576750937825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1544" height="219" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576673271457" />
-    <state x="599" y="131" key="SettingsEditor" timestamp="1576670308309">
+    <state width="1169" height="247" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576750937825" />
+    <state x="599" y="131" key="SettingsEditor" timestamp="1576721756789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="599" y="131" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576670308309" />
+    <state x="599" y="131" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576721756789" />
+    <state x="893" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1576752835273">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="893" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1576752835273" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -170,6 +219,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/wishhust/leetcode/SingleNumber.java</url>
           <line>36</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wishhust/http/InetAddressExample.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
