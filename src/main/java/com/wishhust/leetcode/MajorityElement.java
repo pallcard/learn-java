@@ -9,19 +9,18 @@ package com.wishhust.leetcode;
  *
  * <p>你可以假设数组是非空的，并且给定的数组总是存在多数元素。
  *
- *  输入: [2,2,1,1,1,2,2]
- *  输出: 2
+ * <p>输入: [2,2,1,1,1,2,2] 输出: 2
  */
 public class MajorityElement {
 
   public int majorityElement(int[] nums) {
-    int count = 1; //元素出现次数
+    int count = 1; // 元素出现次数
     int temp = nums[0];
     for (int i = 1; i < nums.length; i++) {
       if (count == 0) {
         temp = nums[i];
         count++;
-      } else if(nums[i] == temp) {
+      } else if (nums[i] == temp) {
         count++;
       } else {
         count--;
@@ -32,6 +31,6 @@ public class MajorityElement {
 
   public static void main(String[] args) {
     //
-    new MajorityElement().majorityElement(new int[]{10,9,9,9,10});
+    new MajorityElement().majorityElement(new int[] {10, 9, 9, 9, 10});
   }
 }
