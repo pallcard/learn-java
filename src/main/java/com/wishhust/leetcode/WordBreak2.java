@@ -6,6 +6,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 /**
  * 单词拆分 II 给定一个非空字符串 s 和一个包含非空单词列表的字典 wordDict，在字符串中增加空格来构建一个句子， 使得句子中所有的单词都在词典中。返回所有这些可能的句子。
@@ -56,39 +57,44 @@ public class WordBreak2 {
   }
 
   public List<String> wordBreak2(String s, List<String> wordDict) {
-    List<StringBuilder> ret = new ArrayList<>();
+    List<String> ret = new ArrayList<>();
     Set<String> wordDictSet = new HashSet<>(wordDict);
-    Queue<Integer> startQueue = new LinkedList<>();
-    startQueue.add(0);
+    Queue<StringBuilder> startQueue = new LinkedList<>();
+    startQueue.add(new StringBuilder());
 
     boolean [] visited = new boolean[s.length()+1];
+
     while (!startQueue.isEmpty()) {
-      Integer start = startQueue.peek();
+      StringBuilder head = startQueue.peek();
+      Integer start = head.toString().replaceAll(" ","").length();
+      if (start == s.replaceAll(" ","").length()) {
+        return startQueue.stream().map(it->it.toString().trim().replaceAll("  "," ")).collect(Collectors.toList());
+      } else {
+        startQueue.poll();
+      }
       if (!visited[start]) {
         for (int end = start+1; end <= s.length(); end++) {
           if (wordDictSet.contains(s.substring(start, end))) {
-            startQueue.add(end);
-            StringBuilder sb = new StringBuilder();
-            sb.append(s, start, end);
-
+            head.append(" ");
+            head.append(s, start, end);
+            startQueue.add(new StringBuilder(head));
+            head.delete(head.length()-(end-start), head.length());
           }
         }
       }
     }
-
     return ret;
   }
 
   public static void main(String[] args) {
-    String s = "catsanddog";
+    String s = "aaaaaaa";
     List<String> wordDic = new ArrayList<>();
-    wordDic.add("cat");
-    wordDic.add("dog");
-    wordDic.add("cats");
-    wordDic.add("and");
-    wordDic.add("sand");
+    wordDic.add("aaaa");
+    wordDic.add("aa");
+    wordDic.add("a");
     System.out.println(new WordBreak2().wordBreak(s, wordDic));
-
+    System.out.println(new WordBreak2().wordBreak2(s, wordDic));
+    System.out.println("----");
     StringBuilder sb = new StringBuilder();
     StringBuilder abc = sb.append("abc");
     System.out.println(abc);
