@@ -86,24 +86,38 @@ public class WordBreak2 {
     return ret;
   }
 
+  public List<String> wordBreak3(String s, List<String> wordDict) {
+    LinkedList<String> [] dp = new LinkedList[s.length()+1];
+    LinkedList<String> initial = new LinkedList<>();
+    initial.add("");
+    for (int end = 1; end <= s.length(); end++) {
+      LinkedList<String> temp = new LinkedList<>();
+      for (int start = 0; start < end; start++) {
+        if (dp[start].size()>0 && wordDict.contains(s.substring(start, end))) {
+          for (String l : dp[start]) {
+            dp[start].add( l + (l.equals("")? "" : " ") )
+          }
+        }
+      }
+    }
+  }
+
+
+
   public static void main(String[] args) {
-    String s = "aaaaaaa";
+    String s = "catsanddog";
     List<String> wordDic = new ArrayList<>();
-    wordDic.add("aaaa");
-    wordDic.add("aa");
-    wordDic.add("a");
+    wordDic.add("cat");
+    wordDic.add("sand");
+    wordDic.add("cats");
+    wordDic.add("and");
+    wordDic.add("dog");
     System.out.println(new WordBreak2().wordBreak(s, wordDic));
     System.out.println(new WordBreak2().wordBreak(s, wordDic).size());
     System.out.println(new WordBreak2().wordBreak2(s, wordDic));
     System.out.println(new WordBreak2().wordBreak2(s, wordDic).size());
-    System.out.println("----");
-    StringBuilder sb = new StringBuilder();
-    StringBuilder abc = sb.append("abc");
-    System.out.println(abc);
-    System.out.println(sb);
-    StringBuilder delete = sb.delete(sb.length() - "abc".length(), sb.length());
-    System.out.println(delete);
-    System.out.println(sb);
+    System.out.println(new WordBreak2().wordBreak3(s, wordDic));
+    System.out.println(new WordBreak2().wordBreak3(s, wordDic).size());
   }
 
 }
