@@ -68,7 +68,7 @@ public class WordBreak2 {
       StringBuilder head = startQueue.peek();
       Integer start = head.toString().replaceAll(" ","").length();
       if (start == s.replaceAll(" ","").length()) {
-        return startQueue.stream().map(it->it.toString().trim().replaceAll("  "," ")).collect(Collectors.toList());
+        ret.add(startQueue.poll().toString().trim());
       } else {
         startQueue.poll();
       }
@@ -78,7 +78,7 @@ public class WordBreak2 {
             head.append(" ");
             head.append(s, start, end);
             startQueue.add(new StringBuilder(head));
-            head.delete(head.length()-(end-start), head.length());
+            head.delete(head.lastIndexOf(" "), head.length());
           }
         }
       }
@@ -93,7 +93,9 @@ public class WordBreak2 {
     wordDic.add("aa");
     wordDic.add("a");
     System.out.println(new WordBreak2().wordBreak(s, wordDic));
+    System.out.println(new WordBreak2().wordBreak(s, wordDic).size());
     System.out.println(new WordBreak2().wordBreak2(s, wordDic));
+    System.out.println(new WordBreak2().wordBreak2(s, wordDic).size());
     System.out.println("----");
     StringBuilder sb = new StringBuilder();
     StringBuilder abc = sb.append("abc");
