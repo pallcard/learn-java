@@ -90,16 +90,18 @@ public class WordBreak2 {
     LinkedList<String> [] dp = new LinkedList[s.length()+1];
     LinkedList<String> initial = new LinkedList<>();
     initial.add("");
+    dp[0] = initial;
     for (int end = 1; end <= s.length(); end++) {
-      LinkedList<String> temp = new LinkedList<>();
+      dp[end] = new LinkedList<>();
       for (int start = 0; start < end; start++) {
         if (dp[start].size()>0 && wordDict.contains(s.substring(start, end))) {
           for (String l : dp[start]) {
-            dp[start].add( l + (l.equals("")? "" : " ") )
+            dp[end].add( l + (l.equals("")? "" : " ") + s.substring(start, end) );
           }
         }
       }
     }
+    return dp[s.length()];
   }
 
 
