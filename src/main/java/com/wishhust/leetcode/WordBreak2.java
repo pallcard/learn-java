@@ -104,8 +104,6 @@ public class WordBreak2 {
     return dp[s.length()];
   }
 
-
-
   public static void main(String[] args) {
     String s = "catsanddog";
     List<String> wordDic = new ArrayList<>();
