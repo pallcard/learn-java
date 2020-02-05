@@ -1,7 +1,12 @@
 package com.wishhust.leetcode;
 
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 /**
  * 单词拆分 II 给定一个非空字符串 s 和一个包含非空单词列表的字典 wordDict，在字符串中增加空格来构建一个句子， 使得句子中所有的单词都在词典中。返回所有这些可能的句子。
@@ -51,23 +56,69 @@ public class WordBreak2 {
     }
   }
 
+  public List<String> wordBreak2(String s, List<String> wordDict) {
+    List<String> ret = new ArrayList<>();
+    Set<String> wordDictSet = new HashSet<>(wordDict);
+    Queue<StringBuilder> startQueue = new LinkedList<>();
+    startQueue.add(new StringBuilder());
+
+    boolean [] visited = new boolean[s.length()+1];
+
+    while (!startQueue.isEmpty()) {
+      StringBuilder head = startQueue.peek();
+      Integer start = head.toString().replaceAll(" ","").length();
+      if (start == s.replaceAll(" ","").length()) {
+        ret.add(startQueue.poll().toString().trim());
+      } else {
+        startQueue.poll();
+      }
+      if (!visited[start]) {
+        for (int end = start+1; end <= s.length(); end++) {
+          if (wordDictSet.contains(s.substring(start, end))) {
+            head.append(" ");
+            head.append(s, start, end);
+            startQueue.add(new StringBuilder(head));
+            head.delete(head.lastIndexOf(" "), head.length());
+          }
+        }
+      }
+    }
+    return ret;
+  }
+
+  public List<String> wordBreak3(String s, List<String> wordDict) {
+    LinkedList<String> [] dp = new LinkedList[s.length()+1];
+    LinkedList<String> initial = new LinkedList<>();
+    initial.add("");
+    dp[0] = initial;
+    for (int end = 1; end <= s.length(); end++) {
+      dp[end] = new LinkedList<>();
+      for (int start = 0; start < end; start++) {
+        if (dp[start].size()>0 && wordDict.contains(s.substring(start, end))) {
+          for (String l : dp[start]) {
+            dp[end].add( l + (l.equals("")? "" : " ") + s.substring(start, end) );
+          }
+        }
+      }
+    }
+    return dp[s.length()];
+  }
+
+
   public static void main(String[] args) {
     String s = "catsanddog";
     List<String> wordDic = new ArrayList<>();
     wordDic.add("cat");
-    wordDic.add("dog");
+    wordDic.add("sand");
     wordDic.add("cats");
     wordDic.add("and");
-    wordDic.add("sand");
+    wordDic.add("dog");
     System.out.println(new WordBreak2().wordBreak(s, wordDic));
-
-    StringBuilder sb = new StringBuilder();
-    StringBuilder abc = sb.append("abc");
-    System.out.println(abc);
-    System.out.println(sb);
-    StringBuilder delete = sb.delete(sb.length() - "abc".length(), sb.length());
-    System.out.println(delete);
-    System.out.println(sb);
+    System.out.println(new WordBreak2().wordBreak(s, wordDic).size());
+    System.out.println(new WordBreak2().wordBreak2(s, wordDic));
+    System.out.println(new WordBreak2().wordBreak2(s, wordDic).size());
+    System.out.println(new WordBreak2().wordBreak3(s, wordDic));
+    System.out.println(new WordBreak2().wordBreak3(s, wordDic).size());
   }
 
 }

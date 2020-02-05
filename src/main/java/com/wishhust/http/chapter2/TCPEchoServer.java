@@ -31,7 +31,9 @@ public class TCPEchoServer {
 
       // Receive until client closes connection, indicated by -1 return
       while ((recvMsgSize = in.read(receiveBuf)) != -1) {
-        out.write(receiveBuf, 0, recvMsgSize);
+        System.out.println(String.valueOf(receiveBuf));
+        out.write("received".getBytes());
+//        out.write(receiveBuf, 0,  recvMsgSize);
       }
 
       clntSock.close();  // Close the socket.  We are done with this client!
