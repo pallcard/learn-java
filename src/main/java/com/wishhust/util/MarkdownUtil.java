@@ -40,5 +40,19 @@ public class MarkdownUtil {
   public static void main(String[] args) {
     String findoffer = MarkdownUtil.generateLink("findoffer");
     System.out.println(findoffer);
+
+//    | 14 | [矩形覆盖][nkw14]| [Java][14]
+    StringBuilder sb = new StringBuilder();
+    for (int i = 10; i < 70; i++) {
+      sb.append("| "+i +" | [test][nkw"+i+"] | [Java]["+i+"]\n");
+    }
+    System.out.println(sb.toString());
+
+    StringBuilder sb2 = new StringBuilder();
+    for (int i = 10; i < 70; i++) {
+      sb2.append("[nkw"+i+"]: \n");
+    }
+    System.out.println(sb2.toString());
+
   }
 }
