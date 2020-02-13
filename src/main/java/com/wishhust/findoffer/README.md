@@ -36,8 +36,19 @@
 [33]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/GetUglyNumber.java "GetUglyNumber"
 [34]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/FirstNotRepeatingChar.java "FirstNotRepeatingChar"
 [35]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/InversePairs.java "InversePairs"
-[36]: *
-
+[36]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/FindFirstCommonNode.java "FindFirstCommonNode"
+[37]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/GetNumberOfK.java "GetNumberOfK"
+[38]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/TreeDepth.java "TreeDepth"
+[39]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/FindNumsAppearOnce.java "FindNumsAppearOnce"
+[40]: *
+[41]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/FindNumbersWithSum.java "FindNumbersWithSum"
+[42]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/LeftRotateString.java "LeftRotateString"
+[43]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/ReverseSentence.java "ReverseSentence"
+[44]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/IsContinuous.java "IsContinuous"
+[45]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/LastRemaining.java "LastRemaining"
+[46]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/RestrictSum.java "RestrictSum"
+[47]: *
+[48]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/StrToInt.java "StrToInt"
 
 
 
@@ -77,20 +88,20 @@
 [nkw33]: https://www.nowcoder.com/practice/6aa9e04fc3794f68acf8778237ba065b?tpId=13&tqId=11186&tPage=2&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
 [nkw34]: https://www.nowcoder.com/practice/1c82e8cf713b4bbeb2a5b31cf5b0417c?tpId=13&tqId=11187&tPage=2&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
 [nkw35]: https://www.nowcoder.com/practice/96bd6684e04a44eb80e6a68efc0ec6c5?tpId=13&tqId=11188&tPage=2&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
-[nkw36]: *
-[nkw37]: *
-[nkw38]: *
-[nkw39]: *
-[nkw40]: *
-[nkw41]: *
-[nkw42]: *
-[nkw43]: *
-[nkw44]: *
-[nkw45]: *
-[nkw46]: *
-[nkw47]: *
-[nkw48]: *
-[nkw49]: *
+[nkw36]: https://www.nowcoder.com/practice/6ab1d9a29e88450685099d45c9e31e46?tpId=13&tqId=11189&tPage=2&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw37]: https://www.nowcoder.com/practice/70610bf967994b22bb1c26f9ae901fa2?tpId=13&tqId=11190&tPage=2&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw38]: https://www.nowcoder.com/practice/435fb86331474282a3499955f0a41e8b?tpId=13&tqId=11191&tPage=2&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw39]: https://www.nowcoder.com/practice/e02fdb54d7524710a7d664d082bb7811?tpId=13&tqId=11193&tPage=2&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw40]: https://www.nowcoder.com/practice/c451a3fd84b64cb19485dad758a55ebe?tpId=13&tqId=11194&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw41]: https://www.nowcoder.com/practice/390da4f7a00f44bea7c2f3d19491311b?tpId=13&tqId=11195&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw42]: https://www.nowcoder.com/practice/12d959b108cb42b1ab72cef4d36af5ec?tpId=13&tqId=11196&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw43]: https://www.nowcoder.com/practice/3194a4f4cf814f63919d0790578d51f3?tpId=13&tqId=11197&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw44]: https://www.nowcoder.com/practice/762836f4d43d43ca9deb273b3de8e1f4?tpId=13&tqId=11198&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw45]: https://www.nowcoder.com/practice/f78a359491e64a50bce2d89cff857eb6?tpId=13&tqId=11199&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw46]: https://www.nowcoder.com/practice/7a0da8fc483247ff8800059e12d7caf1?tpId=13&tqId=11200&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw47]: https://www.nowcoder.com/practice/59ac416b4b944300b617d4f7f111b215?tpId=13&tqId=11201&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw48]: https://www.nowcoder.com/practice/1277c681251b4372bdef344468e4f26e?tpId=13&tqId=11202&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw49]: https://www.nowcoder.com/practice/623a5ac0ea5b4e5f95552655361ae0a8?tpId=13&tqId=11203&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
 [nkw50]: *
 [nkw51]: *
 [nkw52]: *
@@ -139,7 +150,7 @@
 | 22 | [从上往下打印二叉树][nkw22] | [Java][22]
 | 23 | [test][nkw23] | [Java][23]
 | 24 | [test][nkw24] | [Java][24]
-| 25 | [复杂链表复制][nkw25] | [Java][25]
+| 25* | [复杂链表复制][nkw25] | [Java][25]
 | 26 | [test][nkw26] | [Java][26]
 | 27 | [字符串排列][nkw27] | [Java][27]
 | 28 | [数组中出现次数超过一半的数字][nkw28] | [Java][28]
@@ -149,21 +160,21 @@
 | 32 | [把数组排列成最小的数][nkw32] | [Java][32]
 | 33 | [丑数][nkw33] | [Java][33]
 | 34 | [第一个只出现一次的字符][nkw34] | [Java][34]
-| 35 | [数组中的逆序对][nkw35] | [Java][35]
-| 36 | [test][nkw36] | [Java][36]
-| 37 | [test][nkw37] | [Java][37]
-| 38 | [test][nkw38] | [Java][38]
-| 39 | [test][nkw39] | [Java][39]
-| 40 | [test][nkw40] | [Java][40]
-| 41 | [test][nkw41] | [Java][41]
-| 42 | [test][nkw42] | [Java][42]
-| 43 | [test][nkw43] | [Java][43]
-| 44 | [test][nkw44] | [Java][44]
-| 45 | [test][nkw45] | [Java][45]
-| 46 | [test][nkw46] | [Java][46]
-| 47 | [test][nkw47] | [Java][47]
-| 48 | [test][nkw48] | [Java][48]
-| 49 | [test][nkw49] | [Java][49]
+| 35* | [数组中的逆序对][nkw35] | [Java][35]
+| 36 | [两个链表的第一个公共结点][nkw36] | [Java][36]
+| 37 | [数字在排序数组中出现的次数][nkw37] | [Java][37]
+| 38* | [二叉树的深度][nkw38] | [Java][38]
+| 39 | [数组中只出现一次的数字][nkw39] | [Java][39]
+| 40 | [和为S的连续正数序列][nkw40] | [Java][40]
+| 41 | [和为S的两个数字][nkw41] | [Java][41]
+| 42 | [左旋转字符串][nkw42] | [Java][42]
+| 43 | [翻转单词顺序列][nkw43] | [Java][43]
+| 44 | [扑克牌顺子][nkw44] | [Java][44]
+| 45 | [圆圈最后剩下的数][nkw45] | [Java][45]
+| 46 | [限制求和][nkw46] | [Java][46]
+| 47* | [限制相加][nkw47] | [Java][47]
+| 48 | [把字符串转换为整数][nkw48] | [Java][48]
+| 49 | [数组中重复的数字][nkw49] | [Java][49]
 | 50 | [test][nkw50] | [Java][50]
 | 51 | [test][nkw51] | [Java][51]
 | 52 | [test][nkw52] | [Java][52]
