@@ -57,6 +57,8 @@
 [54]: *
 [55]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/StringStream.java "StringStream"
 [56]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/GetNextInTree.java "GetNextInTree"
+[57]: *
+[58]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/PrintTree.java "PrintTree"
 
 
 
@@ -117,8 +119,8 @@
 [nkw54]: https://www.nowcoder.com/practice/253d2c59ec3e4bc68da16833f79a38e4?tpId=13&tqId=11208&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
 [nkw55]: https://www.nowcoder.com/practice/fc533c45b73a41b0b44ccba763f866ef?tpId=13&tqId=11209&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
 [nkw56]: https://www.nowcoder.com/practice/9023a0c988684a53960365b889ceaf5e?tpId=13&tqId=11210&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
-[nkw57]: *
-[nkw58]: *
+[nkw57]: https://www.nowcoder.com/practice/ff05d44dfdb04e1d83bdbdab320efbcb?tpId=13&tqId=11211&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw58]: https://www.nowcoder.com/practice/91b69814117f4e8097390d107d2efbe0?tpId=13&tqId=11212&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
 [nkw59]: *
 [nkw60]: *
 [nkw61]: *
@@ -190,8 +192,8 @@
 | 54* | [链表中环的入口结点][nkw54] | [Java][54]
 | 55 | [删除链表中重复的结点][nkw55] | [Java][55]
 | 56 | [二叉树的下一个结点][nkw56] | [Java][56]
-| 57 | [test][nkw57] | [Java][57]
-| 58 | [test][nkw58] | [Java][58]
+| 57 | [对称的二叉树][nkw57] | [Java][57]
+| 58 | [按之字形顺序打印二叉树][nkw58] | [Java][58]
 | 59 | [test][nkw59] | [Java][59]
 | 60 | [test][nkw60] | [Java][60]
 | 61 | [test][nkw61] | [Java][61]
