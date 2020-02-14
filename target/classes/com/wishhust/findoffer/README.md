@@ -45,6 +45,13 @@
 [42]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/LeftRotateString.java "LeftRotateString"
 [43]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/ReverseSentence.java "ReverseSentence"
 [44]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/IsContinuous.java "IsContinuous"
+[45]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/LastRemaining.java "LastRemaining"
+[46]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/RestrictSum.java "RestrictSum"
+[47]: *
+[48]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/StrToInt.java "StrToInt"
+[49]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/DuplicateInArray.java "DuplicateInArray"
+[50]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/MultiplyArray.java "MultiplyArray"
+[51]: *
 
 
 
@@ -94,14 +101,14 @@
 [nkw42]: https://www.nowcoder.com/practice/12d959b108cb42b1ab72cef4d36af5ec?tpId=13&tqId=11196&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
 [nkw43]: https://www.nowcoder.com/practice/3194a4f4cf814f63919d0790578d51f3?tpId=13&tqId=11197&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
 [nkw44]: https://www.nowcoder.com/practice/762836f4d43d43ca9deb273b3de8e1f4?tpId=13&tqId=11198&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
-[nkw45]: *
-[nkw46]: *
-[nkw47]: *
-[nkw48]: *
-[nkw49]: *
-[nkw50]: *
-[nkw51]: *
-[nkw52]: *
+[nkw45]: https://www.nowcoder.com/practice/f78a359491e64a50bce2d89cff857eb6?tpId=13&tqId=11199&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw46]: https://www.nowcoder.com/practice/7a0da8fc483247ff8800059e12d7caf1?tpId=13&tqId=11200&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw47]: https://www.nowcoder.com/practice/59ac416b4b944300b617d4f7f111b215?tpId=13&tqId=11201&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw48]: https://www.nowcoder.com/practice/1277c681251b4372bdef344468e4f26e?tpId=13&tqId=11202&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw49]: https://www.nowcoder.com/practice/623a5ac0ea5b4e5f95552655361ae0a8?tpId=13&tqId=11203&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw50]: https://www.nowcoder.com/practice/94a4d381a68b47b7a8bed86f2975db46?tpId=13&tqId=11204&tPage=3&rp=3&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw51]: https://www.nowcoder.com/practice/45327ae22b7b413ea21df13ee7d6429c?tpId=13&tqId=11205&tPage=3&rp=3&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw52]: https://www.nowcoder.com/practice/6f8c901d091949a5837e24bb82a731f2?tpId=13&tqId=11206&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
 [nkw53]: *
 [nkw54]: *
 [nkw55]: *
@@ -168,13 +175,13 @@
 | 43 | [翻转单词顺序列][nkw43] | [Java][43]
 | 44 | [扑克牌顺子][nkw44] | [Java][44]
 | 45 | [圆圈最后剩下的数][nkw45] | [Java][45]
-| 46 | [test][nkw46] | [Java][46]
-| 47 | [test][nkw47] | [Java][47]
-| 48 | [test][nkw48] | [Java][48]
-| 49 | [test][nkw49] | [Java][49]
-| 50 | [test][nkw50] | [Java][50]
-| 51 | [test][nkw51] | [Java][51]
-| 52 | [test][nkw52] | [Java][52]
+| 46 | [限制求和][nkw46] | [Java][46]
+| 47* | [限制相加][nkw47] | [Java][47]
+| 48 | [把字符串转换为整数][nkw48] | [Java][48]
+| 49 | [数组中重复的数字][nkw49] | [Java][49]
+| 50 | [构建乘积数组][nkw50] | [Java][50]
+| 51* | [正则表达式匹配][nkw51] | [Java][51]
+| 52 | [表示数值的字符串][nkw52] | [Java][52]
 | 53 | [test][nkw53] | [Java][53]
 | 54 | [test][nkw54] | [Java][54]
 | 55 | [test][nkw55] | [Java][55]

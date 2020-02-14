@@ -49,6 +49,14 @@
 [46]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/RestrictSum.java "RestrictSum"
 [47]: *
 [48]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/StrToInt.java "StrToInt"
+[49]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/DuplicateInArray.java "DuplicateInArray"
+[50]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/MultiplyArray.java "MultiplyArray"
+[51]: *
+[52]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/IsNumeric.java "IsNumeric"
+[53]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/StringStream.java "StringStream"
+[54]: *
+[55]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/StringStream.java "StringStream"
+[56]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/GetNextInTree.java "GetNextInTree"
 
 
 
@@ -102,13 +110,13 @@
 [nkw47]: https://www.nowcoder.com/practice/59ac416b4b944300b617d4f7f111b215?tpId=13&tqId=11201&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
 [nkw48]: https://www.nowcoder.com/practice/1277c681251b4372bdef344468e4f26e?tpId=13&tqId=11202&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
 [nkw49]: https://www.nowcoder.com/practice/623a5ac0ea5b4e5f95552655361ae0a8?tpId=13&tqId=11203&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
-[nkw50]: *
-[nkw51]: *
-[nkw52]: *
-[nkw53]: *
-[nkw54]: *
-[nkw55]: *
-[nkw56]: *
+[nkw50]: https://www.nowcoder.com/practice/94a4d381a68b47b7a8bed86f2975db46?tpId=13&tqId=11204&tPage=3&rp=3&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw51]: https://www.nowcoder.com/practice/45327ae22b7b413ea21df13ee7d6429c?tpId=13&tqId=11205&tPage=3&rp=3&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw52]: https://www.nowcoder.com/practice/6f8c901d091949a5837e24bb82a731f2?tpId=13&tqId=11206&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw53]: https://www.nowcoder.com/practice/00de97733b8e4f97a3fb5c680ee10720?tpId=13&tqId=11207&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw54]: https://www.nowcoder.com/practice/253d2c59ec3e4bc68da16833f79a38e4?tpId=13&tqId=11208&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw55]: https://www.nowcoder.com/practice/fc533c45b73a41b0b44ccba763f866ef?tpId=13&tqId=11209&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw56]: https://www.nowcoder.com/practice/9023a0c988684a53960365b889ceaf5e?tpId=13&tqId=11210&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
 [nkw57]: *
 [nkw58]: *
 [nkw59]: *
@@ -175,13 +183,13 @@
 | 47* | [限制相加][nkw47] | [Java][47]
 | 48 | [把字符串转换为整数][nkw48] | [Java][48]
 | 49 | [数组中重复的数字][nkw49] | [Java][49]
-| 50 | [test][nkw50] | [Java][50]
-| 51 | [test][nkw51] | [Java][51]
-| 52 | [test][nkw52] | [Java][52]
-| 53 | [test][nkw53] | [Java][53]
-| 54 | [test][nkw54] | [Java][54]
-| 55 | [test][nkw55] | [Java][55]
-| 56 | [test][nkw56] | [Java][56]
+| 50 | [构建乘积数组][nkw50] | [Java][50]
+| 51* | [正则表达式匹配][nkw51] | [Java][51]
+| 52 | [表示数值的字符串][nkw52] | [Java][52]
+| 53 | [字符流中第一个不重复的字符][nkw53] | [Java][53]
+| 54* | [链表中环的入口结点][nkw54] | [Java][54]
+| 55 | [删除链表中重复的结点][nkw55] | [Java][55]
+| 56 | [二叉树的下一个结点][nkw56] | [Java][56]
 | 57 | [test][nkw57] | [Java][57]
 | 58 | [test][nkw58] | [Java][58]
 | 59 | [test][nkw59] | [Java][59]
