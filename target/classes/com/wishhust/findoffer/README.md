@@ -65,8 +65,7 @@
 [62]: *
 [63]: *
 [64]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/MatrixHasPath.java "MatrixHasPath"
-[65]: *
-[66]: *
+
 
 
 [^_^]: 牛客网链接
@@ -135,7 +134,8 @@
 [nkw63]: https://www.nowcoder.com/practice/1624bc35a45c42c0bc17d17fa0cba788?tpId=13&tqId=11217&tPage=4&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
 [nkw64]: https://www.nowcoder.com/practice/c61c6999eecb4b8f88a98f66b273a3cc?tpId=13&tqId=11218&tPage=4&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
 [nkw65]: https://www.nowcoder.com/practice/6e5207314b5241fb83f2329e89fdecc8?tpId=13&tqId=11219&tPage=4&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
-[nkw66]: https://www.nowcoder.com/practice/57d85990ba5b440ab888fc72b0751bf8?tpId=13&tqId=33257&tPage=4&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw66]: *
+
 
 
 |题号|题目|解答
@@ -204,6 +204,6 @@
 | 62* | [数据流中的中位数][nkw62] | [Java][62]
 | 63* | [滑动窗口最大值][nkw63] | [Java][63]
 | 64 | [矩阵中路径][nkw64] | [Java][64]
-| 65* | [机器人的运动范围][nkw65] | [Java][65]
-| 66* | [剪绳子][nkw66] | [Java][66]
+| 65 | [机器人的运动范围][nkw65] | [Java][65]
+| 66 | [test][nkw66] | [Java][66]
 
