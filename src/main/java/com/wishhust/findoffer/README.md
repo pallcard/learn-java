@@ -1,4 +1,4 @@
-## 剑指Offer编程题
+# 剑指Offer编程题
 
 [^_^]: github链接
 [1]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/FindInArray.java "FindInArray"

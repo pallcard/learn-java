@@ -11,26 +11,26 @@ Markdown之所以伟大，很大程度上是因为它能够编写纯文本，并
 
 内容:
 
-1.  [文档布局](#document-layout)
-1.  [字符限制](#character-line-limit)
-1.  [反斜杠](#trailing-whitespace)
-1.  [标题](#headings)
-    1.  [ATX-style 标题](#atx-style-headings)
-    1.  [给标题增加间距](#add-spacing-to-headings)
-1.  [列表](#lists)
-    1.  [对长列表使用惰性编号](#use-lazy-numbering-for-long-lists)
-    1.  [嵌套列表间距](#nested-list-spacing)
+1.  [文档布局](#文档布局)
+1.  [字符限制](#字符限制)
+1.  [反斜杠](#反斜杠)
+1.  [标题](#标题)
+    1.  [ATX-style 标题](#atx-style-标题)
+    1.  [给标题增加间距](#给标题增加间距)
+1.  [列表](#列表)
+    1.  [对长列表使用惰性编号](#对长列表使用惰性编号)
+    1.  [嵌套列表间距](#嵌套列表间距)
 1.  [Code](#code)
     1.  [Inline](#inline)
     1.  [Codeblocks](#codeblocks)
     1.  [Declare the language](#declare-the-language)
     1.  [Escape newlines](#escape-newlines)
     1.  [Nest codeblocks within lists](#nest-codeblocks-within-lists)
-1.  [Links](#links)
-    1.  [Use informative Markdown link titles](#use-informative-markdown-link-titles)
-1.  [Images](#images)
-1.  [Prefer lists to tables](#prefer-lists-to-tables)
-1.  [Strongly prefer Markdown to HTML](#strongly-prefer-markdown-to-html)
+1.  [链接](#链接)
+    1.  [使用信息丰富的Markdown链接标题](#使用信息丰富的Markdown链接标题)
+1.  [图片](#图片)
+1.  [优先选择列表而不是表格](#优先选择列表而不是表格)
+1.  [强烈推荐Markdown而不是HTML](#强烈推荐Markdown而不是HTML)
 
 ## 文档布局
 
@@ -311,14 +311,14 @@ See the [syntax guide](syntax_guide.md) for more info.
 Or, check out the [style guide](style_guide.md).
 ```
 
-## Images
+## 图片
 
 尽量少用图像，并且喜欢简单的屏幕截图。 本指南的设计思想是，纯文本使用户更快地从事交流业务，而减少读者的注意力和作者的拖延。 
 但是，有时候对表明您的意思很有帮助。
 
 See [image syntax](https://gerrit.googlesource.com/gitiles/+/master/Documentation/markdown.md#Images).
 
-## Prefer lists to tables
+## 优先选择列表而不是表格
 
 Markdown中的任何表都应该很小。 复杂的大型表格很难从源代码中读取，而且最重要的是，**稍后再修改**。
 
@@ -363,7 +363,7 @@ Bicycle | Miss Gulch | Weatherproof
 X-34 landspeeder | Whiny farmboys | Cheap since the X-38 came out
 ```
 
-## 强烈喜欢Markdown而不是HTML
+## 强烈推荐Markdown而不是HTML
 
 请尽可能使用标准的Markdown语法，并避免HTML遭黑客入侵。 如果您似乎无法完成所需的工作，请重新考虑是否确实需要它。 
 除了[big tables](#prefer-lists-to-tables)外，Markdown已经满足了几乎所有需求。
