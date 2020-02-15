@@ -52,7 +52,19 @@
 [49]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/DuplicateInArray.java "DuplicateInArray"
 [50]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/MultiplyArray.java "MultiplyArray"
 [51]: *
-
+[52]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/IsNumeric.java "IsNumeric"
+[53]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/StringStream.java "StringStream"
+[54]: *
+[55]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/StringStream.java "StringStream"
+[56]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/GetNextInTree.java "GetNextInTree"
+[57]: *
+[58]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/PrintTree.java "PrintTree"
+[59]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/PrintTree2.java "PrintTree2"
+[60]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/SerializeTree.java "SerializeTree"
+[61]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/KthNodeInTree.java "KthNodeInTree"
+[62]: *
+[63]: *
+[64]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/MatrixHasPath.java "MatrixHasPath"
 
 
 
@@ -109,23 +121,21 @@
 [nkw50]: https://www.nowcoder.com/practice/94a4d381a68b47b7a8bed86f2975db46?tpId=13&tqId=11204&tPage=3&rp=3&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
 [nkw51]: https://www.nowcoder.com/practice/45327ae22b7b413ea21df13ee7d6429c?tpId=13&tqId=11205&tPage=3&rp=3&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
 [nkw52]: https://www.nowcoder.com/practice/6f8c901d091949a5837e24bb82a731f2?tpId=13&tqId=11206&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
-[nkw53]: *
-[nkw54]: *
-[nkw55]: *
-[nkw56]: *
-[nkw57]: *
-[nkw58]: *
-[nkw59]: *
-[nkw60]: *
-[nkw61]: *
-[nkw62]: *
-[nkw63]: *
-[nkw64]: *
-[nkw65]: *
+[nkw53]: https://www.nowcoder.com/practice/00de97733b8e4f97a3fb5c680ee10720?tpId=13&tqId=11207&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw54]: https://www.nowcoder.com/practice/253d2c59ec3e4bc68da16833f79a38e4?tpId=13&tqId=11208&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw55]: https://www.nowcoder.com/practice/fc533c45b73a41b0b44ccba763f866ef?tpId=13&tqId=11209&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw56]: https://www.nowcoder.com/practice/9023a0c988684a53960365b889ceaf5e?tpId=13&tqId=11210&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw57]: https://www.nowcoder.com/practice/ff05d44dfdb04e1d83bdbdab320efbcb?tpId=13&tqId=11211&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw58]: https://www.nowcoder.com/practice/91b69814117f4e8097390d107d2efbe0?tpId=13&tqId=11212&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw59]: https://www.nowcoder.com/practice/445c44d982d04483b04a54f298796288?tpId=13&tqId=11213&tPage=3&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw60]: https://www.nowcoder.com/practice/cf7e25aa97c04cc1a68c8f040e71fb84?tpId=13&tqId=11214&tPage=4&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw61]: https://www.nowcoder.com/practice/ef068f602dde4d28aab2b210e859150a?tpId=13&tqId=11215&tPage=4&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw62]: https://www.nowcoder.com/practice/9be0172896bd43948f8a32fb954e1be1?tpId=13&tqId=11216&tPage=4&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw63]: https://www.nowcoder.com/practice/1624bc35a45c42c0bc17d17fa0cba788?tpId=13&tqId=11217&tPage=4&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw64]: https://www.nowcoder.com/practice/c61c6999eecb4b8f88a98f66b273a3cc?tpId=13&tqId=11218&tPage=4&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw65]: https://www.nowcoder.com/practice/6e5207314b5241fb83f2329e89fdecc8?tpId=13&tqId=11219&tPage=4&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
 [nkw66]: *
-[nkw67]: *
-[nkw68]: *
-[nkw69]: *
+
 
 
 |题号|题目|解答
@@ -182,20 +192,18 @@
 | 50 | [构建乘积数组][nkw50] | [Java][50]
 | 51* | [正则表达式匹配][nkw51] | [Java][51]
 | 52 | [表示数值的字符串][nkw52] | [Java][52]
-| 53 | [test][nkw53] | [Java][53]
-| 54 | [test][nkw54] | [Java][54]
-| 55 | [test][nkw55] | [Java][55]
-| 56 | [test][nkw56] | [Java][56]
-| 57 | [test][nkw57] | [Java][57]
-| 58 | [test][nkw58] | [Java][58]
-| 59 | [test][nkw59] | [Java][59]
-| 60 | [test][nkw60] | [Java][60]
-| 61 | [test][nkw61] | [Java][61]
-| 62 | [test][nkw62] | [Java][62]
-| 63 | [test][nkw63] | [Java][63]
-| 64 | [test][nkw64] | [Java][64]
-| 65 | [test][nkw65] | [Java][65]
+| 53 | [字符流中第一个不重复的字符][nkw53] | [Java][53]
+| 54* | [链表中环的入口结点][nkw54] | [Java][54]
+| 55 | [删除链表中重复的结点][nkw55] | [Java][55]
+| 56 | [二叉树的下一个结点][nkw56] | [Java][56]
+| 57* | [对称的二叉树][nkw57] | [Java][57]
+| 58 | [按之字形顺序打印二叉树][nkw58] | [Java][58]
+| 59 | [二叉树打印成多行][nkw59] | [Java][59]
+| 60 | [序列化二叉树][nkw60] | [Java][60]
+| 61 | [二叉搜索树的第k个结点][nkw61] | [Java][61]
+| 62* | [数据流中的中位数][nkw62] | [Java][62]
+| 63* | [滑动窗口最大值][nkw63] | [Java][63]
+| 64 | [矩阵中路径][nkw64] | [Java][64]
+| 65 | [机器人的运动范围][nkw65] | [Java][65]
 | 66 | [test][nkw66] | [Java][66]
-| 67 | [test][nkw67] | [Java][67]
-| 68 | [test][nkw68] | [Java][68]
-| 69 | [test][nkw69] | [Java][69]
+
