@@ -27,6 +27,44 @@ public class DuplicateInArray {
     return false;
   }
 
+//   优化点：直接在原数组上操作，不用开辟新空间
+  public boolean duplicate2(int numbers[], int length, int [] duplication) {
+    int index = 0;
+    while (index < length) {
+      if (numbers[index] == index) {
+        index++;
+      } else if (numbers[index] == numbers[numbers[index]]) {
+        duplication[0] = numbers[index];
+        return true;
+      } else {
+//        numbers[index] 已经改变了
+//        int temp = numbers[index];
+//        numbers[index] = numbers[numbers[index]];
+//        numbers[numbers[index]] = temp;
+        int temp = numbers[index];
+        numbers[index] = numbers[temp];
+        numbers[temp] = temp;
+      }
+    }
+    return false;
+  }
+
+  // 剑指offer解法
+  public boolean duplicate3(int numbers[], int length, int [] duplication) {
+    for (int i = 0; i < length; i++) {
+      while (numbers[i] != i) {
+        if (numbers[i] == numbers[numbers[i]]) {
+          duplication[0] = numbers[i];
+          return true;
+        }
+        int temp = numbers[i];
+        numbers[i] = numbers[temp];
+        numbers[temp] = temp;
+      }
+    }
+    return false;
+  }
+
   public static void main(String[] args) {
     int [] result = new int[1];
     boolean duplicate = new DuplicateInArray().duplicate(new int[]{2, 4, 3, 1, 4}, 5, result);

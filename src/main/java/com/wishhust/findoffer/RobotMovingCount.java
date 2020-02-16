@@ -21,7 +21,7 @@ public class RobotMovingCount {
   private int[] directX = new int[]{0,1};
   private int[] directY = new int[]{1,0};
 
-  private void dfs(int rows, int cols,int threshold, int x, int y, boolean[][] isVisited) {
+  private void dfs(int rows, int cols, int threshold, int x, int y, boolean[][] isVisited) {
     for (int i = 0; i < 2; i++) {
       int nextX = x+directX[i];
       int nextY = y+directY[i];
@@ -30,6 +30,19 @@ public class RobotMovingCount {
         count++;
       }
     }
+  }
+
+  public int movingCount2(int threshold, int rows, int cols) {
+    boolean[][] isVisited = new boolean[rows][cols];
+    return dfs2(rows,cols,threshold,0,0, isVisited);
+  }
+
+  private int dfs2(int rows, int cols, int threshold, int x, int y, boolean[][] isVisited) {
+    if (x<0 || x >= rows || y<0 || y>=cols || isVisited[x][y] || add(x,y)>threshold) {
+      return 0;
+    }
+    isVisited[x][y] = true;
+    return dfs2(rows,cols,threshold,x+1,y, isVisited) + dfs2(rows,cols,threshold,x,y+1, isVisited)+1;
   }
 
   private int add(int x, int y) {
@@ -49,7 +62,7 @@ public class RobotMovingCount {
   }
 
   public static void main(String[] args) {
-    int count = new RobotMovingCount().movingCount(10, 1, 100);
+    int count = new RobotMovingCount().movingCount2(10, 1, 100);
     System.out.println(count);
   }
 
