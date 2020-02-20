@@ -6,6 +6,81 @@
 
 \# 题解有优化
 
+
+|题号|题目|解答
+|-|-|-
+| 1 | [二维数组中查找][nkw1] | [Java][1]
+| 2 | [替换空格][nkw2] | [Java][2]
+| 3 | [从尾到头打印链表][nkw3] | [Java][3]
+| 4 | [重建二叉树][nkw4] | [Java][4]
+| 5 | [两个栈实现队列][nkw5] | [Java][5]
+| 6* | [旋转数组最小数字][nkw6] | [Java][6]
+| 7 | [斐波拉契数列][nkw7] | [Java][7]
+| 8 | [跳台阶][nkw8] | [Java][8]
+| 9 | [变态跳台阶][nkw9] | [Java][9]
+| 10 | [矩形覆盖][nkw10] | [Java][10]
+| 11 | [二进制中1的个数][nkw11] | [Java][11]
+| 12# | [数值的整数次方][nkw12] | [Java][12]
+| 13 | [调整数组顺序使奇数位于偶数前面][nkw13] | [Java][13]
+| 14 | [链表中倒数第k个结点][nkw14] | [Java][14]
+| 15 | [反转链表][nkw15] | [Java][15]
+| 16 | [合并两个排序的链表][nkw16] | [Java][16]
+| 17* | [树的子结构][nkw17] | [Java][17]
+| 18* | [二叉树的镜像][nkw18] | [Java][18]
+| 19 | [顺时针打印矩阵][nkw19] | [Java][19]
+| 20 | [包含min函数的栈][nkw20] | [Java][20]
+| 21 | [栈的压入弹出序列][nkw21] | [Java][21]
+| 22 | [从上往下打印二叉树][nkw22] | [Java][22]
+| 23* | [二叉搜索树的后序遍历序列][nkw23] | [Java][23]
+| 24* | [二叉树中和为某一值的路径][nkw24] | [Java][24]
+| 25* | [复杂链表复制][nkw25] | [Java][25]
+| 26* | [二叉搜索树与双向链表][nkw26] | [Java][26]
+| 27 | [字符串排列][nkw27] | [Java][27]
+| 28 | [数组中出现次数超过一半的数字][nkw28] | [Java][28]
+| 29 | [最小的k个数][nkw29] | [Java][29]
+| 30* | [连续子数组的最大和][nkw30] | [Java][30]
+| 31 | [整数中1出现的次数][nkw31] | [Java][31]
+| 32 | [把数组排列成最小的数][nkw32] | [Java][32]
+| 33 | [丑数][nkw33] | [Java][33]
+| 34 | [第一个只出现一次的字符][nkw34] | [Java][34]
+| 35* | [数组中的逆序对][nkw35] | [Java][35]
+| 36 | [两个链表的第一个公共结点][nkw36] | [Java][36]
+| 37 | [数字在排序数组中出现的次数][nkw37] | [Java][37]
+| 38* | [二叉树的深度][nkw38] | [Java][38]
+| 39 | [数组中只出现一次的数字][nkw39] | [Java][39]
+| 40 | [和为S的连续正数序列][nkw40] | [Java][40]
+| 41 | [和为S的两个数字][nkw41] | [Java][41]
+| 42 | [左旋转字符串][nkw42] | [Java][42]
+| 43 | [翻转单词顺序列][nkw43] | [Java][43]
+| 44 | [扑克牌顺子][nkw44] | [Java][44]
+| 45 | [圆圈最后剩下的数][nkw45] | [Java][45]
+| 46 | [限制求和][nkw46] | [Java][46]
+| 47* | [限制相加][nkw47] | [Java][47]
+| 48 | [把字符串转换为整数][nkw48] | [Java][48]
+| 49# | [数组中重复的数字][nkw49] | [Java][49]
+| 50 | [构建乘积数组][nkw50] | [Java][50]
+| 51* | [正则表达式匹配][nkw51] | [Java][51]
+| 52 | [表示数值的字符串][nkw52] | [Java][52]
+| 53 | [字符流中第一个不重复的字符][nkw53] | [Java][53]
+| 54* | [链表中环的入口结点][nkw54] | [Java][54]
+| 55 | [删除链表中重复的结点][nkw55] | [Java][55]
+| 56 | [二叉树的下一个结点][nkw56] | [Java][56]
+| 57* | [对称的二叉树][nkw57] | [Java][57]
+| 58 | [按之字形顺序打印二叉树][nkw58] | [Java][58]
+| 59 | [二叉树打印成多行][nkw59] | [Java][59]
+| 60 | [序列化二叉树][nkw60] | [Java][60]
+| 61 | [二叉搜索树的第k个结点][nkw61] | [Java][61]
+| 62* | [数据流中的中位数][nkw62] | [Java][62]
+| 63* | [滑动窗口最大值][nkw63] | [Java][63]
+| 64 | [矩阵中路径][nkw64] | [Java][64]
+| 65* | [机器人的运动范围][nkw65] | [Java][65]
+| 66* | [剪绳子][nkw66] | [Java][66]
+| 67* | [两个队列实现栈] | [Java][67]
+| 68# | [打印从1到最大的n位数] | [Java][68]
+| 69 | [大整数相加] | [Java][69]
+| 70 | [删除链表的节点] | [Java][70]
+
+
 [^_^]: github链接
 [1]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/FindInArray.java "FindInArray"
 [2]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/ReplaceSpace.java "ReplaceSpace"
@@ -74,6 +149,7 @@
 [65]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/RobotMovingCount.java "RobotMovingCount"
 [66]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/CutRope.java "CutRope"
 [67]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/StackByQueue.java "StackByQueue"
+[68]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/Print1ToMaxOfNDigits.java "Print1ToMaxOfNDigits"
 
 
 
@@ -95,19 +171,19 @@
 [nkw15]: https://www.nowcoder.com/practice/75e878df47f24fdc9dc3e400ec6058ca?tpId=13&tqId=11168&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
 [nkw16]: https://www.nowcoder.com/practice/d8b6b4358f774294a89de2a6ac4d9337?tpId=13&tqId=11169&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
 [nkw17]: https://www.nowcoder.com/practice/6e196c44c7004d15b1610b9afca8bd88?tpId=13&tqId=11170&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
-[nkw18]: *
+[nkw18]: https://www.nowcoder.com/practice/564f4c26aa584921bc75623e48ca3011?tpId=13&tqId=11171&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
 [nkw19]: https://www.nowcoder.com/practice/9b4c81a02cd34f76be2659fa0d54342a?tpId=13&tqId=11172&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
 [nkw20]: https://www.nowcoder.com/practice/4c776177d2c04c2494f2555c9fcc1e49?tpId=13&tqId=11173&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
 [nkw21]: https://www.nowcoder.com/practice/d77d11405cc7470d82554cb392585106?tpId=13&tqId=11174&tPage=2&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
 [nkw22]: https://www.nowcoder.com/practice/7fe2212963db4790b57431d9ed259701?tpId=13&tqId=11175&tPage=2&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
-[nkw23]: *
-[nkw24]: *
+[nkw23]: https://www.nowcoder.com/practice/a861533d45854474ac791d90e447bafd?tpId=13&tqId=11176&tPage=2&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
+[nkw24]: https://www.nowcoder.com/practice/b736e784e3e34731af99065031301bca?tpId=13&tqId=11177&tPage=2&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
 [nkw25]: https://www.nowcoder.com/practice/f836b2c43afc4b35ad6adc41ec941dba?tpId=13&tqId=11178&tPage=2&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
-[nkw26]: *
+[nkw26]: https://www.nowcoder.com/practice/947f6eb80d944a84850b0538bf0ec3a5?tpId=13&tqId=11179&tPage=2&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
 [nkw27]: https://www.nowcoder.com/practice/fe6b651b66ae47d7acce78ffdd9a96c7?tpId=13&tqId=11180&tPage=2&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
 [nkw28]: https://www.nowcoder.com/practice/e8a1b01a2df14cb2b228b30ee6a92163?tpId=13&tqId=11181&tPage=2&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
 [nkw29]: https://www.nowcoder.com/practice/6a296eb82cf844ca8539b57c23e6e9bf?tpId=13&tqId=11182&tPage=2&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
-[nkw30]: *
+[nkw30]: https://www.nowcoder.com/practice/459bd355da1549fa8a49e350bf3df484?tpId=13&tqId=11183&tPage=2&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
 [nkw31]: https://www.nowcoder.com/practice/bd7f978302044eee894445e244c7eee6?tpId=13&tqId=11184&tPage=2&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
 [nkw32]: https://www.nowcoder.com/practice/8fecd3f8ba334add803bf2a06af1b993?tpId=13&tqId=11185&tPage=2&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
 [nkw33]: https://www.nowcoder.com/practice/6aa9e04fc3794f68acf8778237ba065b?tpId=13&tqId=11186&tPage=2&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
@@ -144,76 +220,4 @@
 [nkw64]: https://www.nowcoder.com/practice/c61c6999eecb4b8f88a98f66b273a3cc?tpId=13&tqId=11218&tPage=4&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
 [nkw65]: https://www.nowcoder.com/practice/6e5207314b5241fb83f2329e89fdecc8?tpId=13&tqId=11219&tPage=4&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
 [nkw66]: https://www.nowcoder.com/practice/57d85990ba5b440ab888fc72b0751bf8?tpId=13&tqId=33257&tPage=4&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
-[nkw67]: *
-
-
-|题号|题目|解答
-|-|-|-
-| 1 | [二维数组中查找][nkw1] | [Java][1]
-| 2 | [替换空格][nkw2] | [Java][2]
-| 3 | [从尾到头打印链表][nkw3] | [Java][3]
-| 4 | [重建二叉树][nkw4] | [Java][4]
-| 5 | [两个栈实现队列][nkw5] | [Java][5]
-| 6* | [旋转数组最小数字][nkw6] | [Java][6]
-| 7 | [斐波拉契数列][nkw7] | [Java][7]
-| 8 | [跳台阶][nkw8] | [Java][8]
-| 9 | [变态跳台阶][nkw9] | [Java][9]
-| 10 | [矩形覆盖][nkw10] | [Java][10]
-| 11 | [二进制中1的个数][nkw11] | [Java][11]
-| 12 | [数值的整数次方][nkw12] | [Java][12]
-| 13 | [调整数组顺序使奇数位于偶数前面][nkw13] | [Java][13]
-| 14 | [链表中倒数第k个结点][nkw14] | [Java][14]
-| 15 | [反转链表][nkw15] | [Java][15]
-| 16 | [合并两个排序的链表][nkw16] | [Java][16]
-| 17 | [树的子结构][nkw17] | [Java][17]
-| 18 | [test][nkw18] | [Java][18]
-| 19 | [顺时针打印矩阵][nkw19] | [Java][19]
-| 20 | [包含min函数的栈][nkw20] | [Java][20]
-| 21 | [栈的压入弹出序列][nkw21] | [Java][21]
-| 22 | [从上往下打印二叉树][nkw22] | [Java][22]
-| 23 | [test][nkw23] | [Java][23]
-| 24 | [test][nkw24] | [Java][24]
-| 25* | [复杂链表复制][nkw25] | [Java][25]
-| 26 | [test][nkw26] | [Java][26]
-| 27 | [字符串排列][nkw27] | [Java][27]
-| 28 | [数组中出现次数超过一半的数字][nkw28] | [Java][28]
-| 29 | [最小的k个数][nkw29] | [Java][29]
-| 30 | [test][nkw30] | [Java][30]
-| 31 | [整数中1出现的次数][nkw31] | [Java][31]
-| 32 | [把数组排列成最小的数][nkw32] | [Java][32]
-| 33 | [丑数][nkw33] | [Java][33]
-| 34 | [第一个只出现一次的字符][nkw34] | [Java][34]
-| 35* | [数组中的逆序对][nkw35] | [Java][35]
-| 36 | [两个链表的第一个公共结点][nkw36] | [Java][36]
-| 37 | [数字在排序数组中出现的次数][nkw37] | [Java][37]
-| 38* | [二叉树的深度][nkw38] | [Java][38]
-| 39 | [数组中只出现一次的数字][nkw39] | [Java][39]
-| 40 | [和为S的连续正数序列][nkw40] | [Java][40]
-| 41 | [和为S的两个数字][nkw41] | [Java][41]
-| 42 | [左旋转字符串][nkw42] | [Java][42]
-| 43 | [翻转单词顺序列][nkw43] | [Java][43]
-| 44 | [扑克牌顺子][nkw44] | [Java][44]
-| 45 | [圆圈最后剩下的数][nkw45] | [Java][45]
-| 46 | [限制求和][nkw46] | [Java][46]
-| 47* | [限制相加][nkw47] | [Java][47]
-| 48 | [把字符串转换为整数][nkw48] | [Java][48]
-| 49# | [数组中重复的数字][nkw49] | [Java][49]
-| 50 | [构建乘积数组][nkw50] | [Java][50]
-| 51* | [正则表达式匹配][nkw51] | [Java][51]
-| 52 | [表示数值的字符串][nkw52] | [Java][52]
-| 53 | [字符流中第一个不重复的字符][nkw53] | [Java][53]
-| 54* | [链表中环的入口结点][nkw54] | [Java][54]
-| 55 | [删除链表中重复的结点][nkw55] | [Java][55]
-| 56 | [二叉树的下一个结点][nkw56] | [Java][56]
-| 57* | [对称的二叉树][nkw57] | [Java][57]
-| 58 | [按之字形顺序打印二叉树][nkw58] | [Java][58]
-| 59 | [二叉树打印成多行][nkw59] | [Java][59]
-| 60 | [序列化二叉树][nkw60] | [Java][60]
-| 61 | [二叉搜索树的第k个结点][nkw61] | [Java][61]
-| 62* | [数据流中的中位数][nkw62] | [Java][62]
-| 63* | [滑动窗口最大值][nkw63] | [Java][63]
-| 64 | [矩阵中路径][nkw64] | [Java][64]
-| 65* | [机器人的运动范围][nkw65] | [Java][65]
-| 66* | [剪绳子][nkw66] | [Java][66]
-| 67* | [两个队列实现栈][nkw66] | [Java][67]
 
