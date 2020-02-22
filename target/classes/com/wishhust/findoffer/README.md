@@ -26,11 +26,11 @@
 | 15 | [反转链表][nkw15] | [Java][15]
 | 16 | [合并两个排序的链表][nkw16] | [Java][16]
 | 17* | [树的子结构][nkw17] | [Java][17]
-| 18* | [二叉树的镜像][nkw18] | [Java][18]
-| 19 | [顺时针打印矩阵][nkw19] | [Java][19]
-| 20 | [包含min函数的栈][nkw20] | [Java][20]
-| 21 | [栈的压入弹出序列][nkw21] | [Java][21]
-| 22 | [从上往下打印二叉树][nkw22] | [Java][22]
+| 18*->27 | [二叉树的镜像][nkw18] | [Java][18]
+| 19->29 | [顺时针打印矩阵][nkw19] | [Java][19]
+| 20->30 | [包含min函数的栈][nkw20] | [Java][20]
+| 21->31 | [栈的压入弹出序列][nkw21] | [Java][21]
+| 22->32(1) | [从上往下打印二叉树][nkw22] | [Java][22]
 | 23* | [二叉搜索树的后序遍历序列][nkw23] | [Java][23]
 | 24* | [二叉树中和为某一值的路径][nkw24] | [Java][24]
 | 25* | [复杂链表复制][nkw25] | [Java][25]
@@ -65,8 +65,8 @@
 | 54* | [链表中环的入口结点][nkw54] | [Java][54]
 | 55 | [删除链表中重复的结点][nkw55] | [Java][55]
 | 56 | [二叉树的下一个结点][nkw56] | [Java][56]
-| 57* | [对称的二叉树][nkw57] | [Java][57]
-| 58 | [按之字形顺序打印二叉树][nkw58] | [Java][58]
+| 57*->28 | [对称的二叉树][nkw57] | [Java][57]
+| 58->32(3) | [按之字形顺序打印二叉树][nkw58] | [Java][58]
 | 59 | [二叉树打印成多行][nkw59] | [Java][59]
 | 60 | [序列化二叉树][nkw60] | [Java][60]
 | 61 | [二叉搜索树的第k个结点][nkw61] | [Java][61]
@@ -99,7 +99,7 @@
 [15]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/ReverseList.java "ReverseList"
 [16]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/MergeLinkedList.java "MergeLinkedList"
 [17]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/HasSubtree.java "HasSubtree"
-[18]: *
+[18]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/Mirror.java "Mirror"
 [19]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/PrintMatrix.java "PrintMatrix"
 [20]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/MinStack.java "MinStack"
 [21]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/IsPopOrder.java "IsPopOrder"
@@ -135,10 +135,10 @@
 [51]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/RegularMatch.java "RegularMatch"
 [52]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/IsNumeric.java "IsNumeric"
 [53]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/StringStream.java "StringStream"
-[54]: *
+[54]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/EntryNodeOfLoop.java "EntryNodeOfLoop"
 [55]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/StringStream.java "StringStream"
 [56]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/GetNextInTree.java "GetNextInTree"
-[57]: *
+[57]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/IsSymmetricalTree.java "IsSymmetricalTree"
 [58]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/PrintTree.java "PrintTree"
 [59]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/PrintTree2.java "PrintTree2"
 [60]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/SerializeTree.java "SerializeTree"
