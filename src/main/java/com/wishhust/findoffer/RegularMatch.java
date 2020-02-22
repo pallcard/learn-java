@@ -35,9 +35,42 @@ public class RegularMatch {
     }
   }
 
+  public boolean match2(char[] str, char[] pattern) {
+    if (str.length == 0 && pattern.length == 2 && pattern[1] == '*') {
+      return true;
+    }
+    if (str.length == 0 && pattern.length > 0) {
+      return false;
+    }
+    return regularMatch(str, 0, pattern, 0);
+  }
+
+  // bbbba
+  // .*a*a
+  public boolean regularMatch(char [] str, int indexStr, char [] pattern, int indexPattern) {
+    if (indexStr == str.length && indexPattern == pattern.length) {
+      return true;
+    } else if (indexStr < str.length && indexPattern == pattern.length) {
+      return false;
+    }
+    if (indexPattern+1 < pattern.length && pattern[indexPattern+1] == '*') {
+      if (indexStr < str.length && (str[indexStr] == pattern[indexPattern] || pattern[indexPattern] == '.')) {
+        return regularMatch(str, indexStr + 1, pattern, indexPattern + 2) ||
+            regularMatch(str, indexStr + 1, pattern, indexPattern)||
+            regularMatch(str, indexStr, pattern,indexPattern+2);
+      }
+      return regularMatch(str, indexStr, pattern,indexPattern+2);
+    }
+
+    if (indexStr < str.length && (str[indexStr] == pattern[indexPattern] || pattern[indexPattern] == '.')) {
+      return regularMatch(str, indexStr+1, pattern, indexPattern+1);
+    }
+    return false;
+  }
+
   public static void main(String[] args) {
 //    boolean match = new RegularMatch().match(new char[]{'a', 'a', 'a'}, new char[]{'a', 'b','*', 'a','c','*', 'a'});
-    boolean match = new RegularMatch().match(new char[]{'a', 'a', 'a'}, new char[]{'a', 'a','*', 'a','c','*', 'a'});
+    boolean match = new RegularMatch().match2(new char[]{}, new char[]{'C','*','a', '*'});
     System.out.println(match);
   }
 }

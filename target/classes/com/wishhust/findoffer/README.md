@@ -132,7 +132,7 @@
 [48]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/StrToInt.java "StrToInt"
 [49]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/DuplicateInArray.java "DuplicateInArray"
 [50]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/MultiplyArray.java "MultiplyArray"
-[51]: *
+[51]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/RegularMatch.java "RegularMatch"
 [52]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/IsNumeric.java "IsNumeric"
 [53]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/StringStream.java "StringStream"
 [54]: *
@@ -150,6 +150,8 @@
 [66]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/CutRope.java "CutRope"
 [67]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/StackByQueue.java "StackByQueue"
 [68]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/Print1ToMaxOfNDigits.java "Print1ToMaxOfNDigits"
+[69]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/BigNumAdd.java "BigNumAdd"
+[70]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/DeleteNode.java "DeleteNode"
 
 
 

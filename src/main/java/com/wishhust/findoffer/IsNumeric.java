@@ -36,9 +36,58 @@ public class IsNumeric {
     return index == str.length;
   }
 
+  public boolean isNumeric(String str) {
+    if (str.length() == 0) {
+      return false;
+    }
+    int index = 0;
+    if (str.charAt(0) == '+' || str.charAt(0) == '-') {
+      index++;
+    }
+    boolean isNumber = false;
+    boolean isNumberWithDot = false;
+    boolean isNumberWithE = false;
+
+    while (index < str.length() && str.charAt(index) >= '0' && str.charAt(index) <= '9') {
+      index++;
+      isNumber = true;
+    }
+
+    if (index < str.length() && str.charAt(index) == '.') {
+      index++;
+      while (index < str.length() && str.charAt(index) >= '0' && str.charAt(index) <= '9') {
+        index++;
+        isNumberWithDot = true;
+      }
+      isNumber = isNumberWithDot;
+    }
+
+    if (index < str.length() && (str.charAt(index) == 'e' || str.charAt(index) == 'E')) {
+      index++;
+
+      if (index < str.length() && (str.charAt(index) == '+' || str.charAt(index) == '-')) {
+        index++;
+      }
+      while (index < str.length() && str.charAt(index) >= '0' && str.charAt(index) <= '9') {
+        index++;
+        isNumberWithE=true;
+      }
+      isNumber = isNumber && isNumberWithE;
+
+    }
+
+    if (index == str.length()) {
+      return isNumber;
+    }
+
+    return false;
+  }
+
   public static void main(String[] args) {
-    boolean numeric = new IsNumeric().isNumeric("123.45e+6".toCharArray());
-    System.out.println(numeric);
+    boolean numeric = new IsNumeric().isNumeric(".2e+6".toCharArray());
+
+    boolean numeric1 = new IsNumeric().isNumeric(".2e");
+    System.out.println(numeric1);
   }
 
 }
