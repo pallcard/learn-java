@@ -35,9 +35,9 @@
 | 24* | [二叉树中和为某一值的路径][nkw24] | [Java][24]
 | 25* | [复杂链表复制][nkw25] | [Java][25]
 | 26*->36 | [二叉搜索树与双向链表][nkw26] | [Java][26]
-| 27 | [字符串排列][nkw27] | [Java][27]
-| 28 | [数组中出现次数超过一半的数字][nkw28] | [Java][28]
-| 29 | [最小的k个数][nkw29] | [Java][29]
+| 27->38 | [字符串排列][nkw27] | [Java][27]
+| 28->39 | [数组中出现次数超过一半的数字][nkw28] | [Java][28]
+| 29#->40 | [最小的k个数][nkw29] | [Java][29]
 | 30* | [连续子数组的最大和][nkw30] | [Java][30]
 | 31 | [整数中1出现的次数][nkw31] | [Java][31]
 | 32 | [把数组排列成最小的数][nkw32] | [Java][32]
@@ -79,6 +79,7 @@
 | 68# | [打印从1到最大的n位数] | [Java][68]
 | 69 | [大整数相加] | [Java][69]
 | 70 | [删除链表的节点] | [Java][70]
+| 71 | [字符串组合] | [Java][71]
 
 
 [^_^]: github链接
@@ -152,6 +153,7 @@
 [68]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/Print1ToMaxOfNDigits.java "Print1ToMaxOfNDigits"
 [69]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/BigNumAdd.java "BigNumAdd"
 [70]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/DeleteNode.java "DeleteNode"
+[71]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/Combination.java "Combination"
 
 
 

@@ -38,9 +38,33 @@ public class Permutation {
       }
     }
   }
+  // 把字符串分成两个部分，第一部分分别与后面的字符交换
+  public ArrayList<String> Permutation2(String str) {
+    Permutation(new StringBuilder(str), 0);
+    return null;
+  }
+
+  public ArrayList<String> Permutation(StringBuilder str, int index) {
+    if (index == str.length()) {
+      System.out.println(new String(str));
+      return null;
+    }
+    for (int i = index; i < str.length(); i++) {
+      char temp = str.charAt(i);
+      str.replace(i, i+1, str.charAt(index)+"");
+      str.replace(index, index+1, temp+"");
+      Permutation(str, index+1);
+      temp = str.charAt(i);
+      str.replace(i, i+1, str.charAt(index)+"");
+      str.replace(index, index+1, temp+"");
+    }
+    return null;
+  }
 
   public static void main(String[] args) {
     ArrayList<String> abc = new Permutation().Permutation("abc");
     System.out.println(abc);
+    System.out.println("--------------");
+    new Permutation().Permutation2("abc");
   }
 }
