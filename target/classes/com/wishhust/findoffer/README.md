@@ -38,18 +38,19 @@
 | 27->38 | [字符串排列][nkw27] | [Java][27]
 | 28->39 | [数组中出现次数超过一半的数字][nkw28] | [Java][28]
 | 29#->40 | [最小的k个数][nkw29] | [Java][29]
-| 30* | [连续子数组的最大和][nkw30] | [Java][30]
-| 31 | [整数中1出现的次数][nkw31] | [Java][31]
-| 32 | [把数组排列成最小的数][nkw32] | [Java][32]
-| 33 | [丑数][nkw33] | [Java][33]
-| 34 | [第一个只出现一次的字符][nkw34] | [Java][34]
-| 35* | [数组中的逆序对][nkw35] | [Java][35]
-| 36 | [两个链表的第一个公共结点][nkw36] | [Java][36]
-| 37 | [数字在排序数组中出现的次数][nkw37] | [Java][37]
-| 38* | [二叉树的深度][nkw38] | [Java][38]
-| 39 | [数组中只出现一次的数字][nkw39] | [Java][39]
-| 40 | [和为S的连续正数序列][nkw40] | [Java][40]
-| 41 | [和为S的两个数字][nkw41] | [Java][41]
+| 30*->42 | [连续子数组的最大和][nkw30] | [Java][30]
+| 31#->43 | [整数中1出现的次数][nkw31] | [Java][31]
+| 32->45 | [把数组排列成最小的数][nkw32] | [Java][32]
+| 33#->49 | [丑数][nkw33] | [Java][33]
+| 34->50 | [第一个只出现一次的字符][nkw34] | [Java][34]
+| 35*->51 | [数组中的逆序对][nkw35] | [Java][35]
+| 36->52 | [两个链表的第一个公共结点][nkw36] | [Java][36]
+| 37->53 | [数字在排序数组中出现的次数][nkw37] | [Java][37]
+| 38->55 | [二叉树的深度][nkw38] | [Java][38]
+| 38(2)*->55(2) | [平衡二叉树][nkw38(2)] | [Java][38(2)]
+| 39->56 | [数组中只出现一次的数字][nkw39] | [Java][39]
+| 40*->57(2) | [和为S的连续正数序列][nkw40] | [Java][40]
+| 41->57 | [和为S的两个数字][nkw41] | [Java][41]
 | 42 | [左旋转字符串][nkw42] | [Java][42]
 | 43 | [翻转单词顺序列][nkw43] | [Java][43]
 | 44 | [扑克牌顺子][nkw44] | [Java][44]
@@ -61,7 +62,7 @@
 | 50 | [构建乘积数组][nkw50] | [Java][50]
 | 51* | [正则表达式匹配][nkw51] | [Java][51]
 | 52 | [表示数值的字符串][nkw52] | [Java][52]
-| 53 | [字符流中第一个不重复的字符][nkw53] | [Java][53]
+| 53->50(2) | [字符流中第一个不重复的字符][nkw53] | [Java][53]
 | 54* | [链表中环的入口结点][nkw54] | [Java][54]
 | 55 | [删除链表中重复的结点][nkw55] | [Java][55]
 | 56 | [二叉树的下一个结点][nkw56] | [Java][56]
@@ -69,8 +70,8 @@
 | 58->32(3) | [按之字形顺序打印二叉树][nkw58] | [Java][58]
 | 59 | [二叉树打印成多行][nkw59] | [Java][59]
 | 60 | [序列化二叉树][nkw60] | [Java][60]
-| 61 | [二叉搜索树的第k个结点][nkw61] | [Java][61]
-| 62* | [数据流中的中位数][nkw62] | [Java][62]
+| 61#->54 | [二叉搜索树的第k个结点][nkw61] | [Java][61]
+| 62*-41 | [数据流中的中位数][nkw62] | [Java][62]
 | 63* | [滑动窗口最大值][nkw63] | [Java][63]
 | 64 | [矩阵中路径][nkw64] | [Java][64]
 | 65* | [机器人的运动范围][nkw65] | [Java][65]
@@ -80,6 +81,13 @@
 | 69 | [大整数相加] | [Java][69]
 | 70 | [删除链表的节点] | [Java][70]
 | 71 | [字符串组合] | [Java][71]
+| 72* | [数字序列中某一位的数字] | [Java][72]
+| 73# | [数字翻译成字符串] | [Java][73]
+| 74# | [礼物的最大价值] | [Java][74]
+| 75*->48 | [最长不含重复字符的子字符串] | [Java][75]
+| 76#->53(2) | [0~n-1中缺失的数字] | [Java][76]
+| 77#->53(3) | [数组中数值与下标相等] | [Java][77]
+| 78*->56(2) | [数组中唯一只出现了一次的数字] | [Java][77]
 
 
 [^_^]: github链接
@@ -112,7 +120,7 @@
 [27]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/Permutation.java "Permutation"
 [28]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/MoreThanHalfNum.java "MoreThanHalfNum"
 [29]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/GetLeastNumbers.java "GetLeastNumbers"
-[30]: *
+[30]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/FindGreatestSumOfSubArray.java "FindGreatestSumOfSubArray"
 [31]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/NumberOf1Between1AndN.java "NumberOf1Between1AndN"
 [32]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/PrintMinNumber.java "PrintMinNumber"
 [33]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/GetUglyNumber.java "GetUglyNumber"
@@ -121,6 +129,7 @@
 [36]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/FindFirstCommonNode.java "FindFirstCommonNode"
 [37]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/GetNumberOfK.java "GetNumberOfK"
 [38]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/TreeDepth.java "TreeDepth"
+[38(2)]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/IsBalancedTree.java "IsBalancedTree"
 [39]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/FindNumsAppearOnce.java "FindNumsAppearOnce"
 [40]: *
 [41]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/FindNumbersWithSum.java "FindNumbersWithSum"
@@ -144,7 +153,7 @@
 [59]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/PrintTree2.java "PrintTree2"
 [60]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/SerializeTree.java "SerializeTree"
 [61]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/KthNodeInTree.java "KthNodeInTree"
-[62]: *
+[62]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/DataStreamMedian.java "DataStreamMedian"
 [63]: *
 [64]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/MatrixHasPath.java "MatrixHasPath"
 [65]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/RobotMovingCount.java "RobotMovingCount"
@@ -154,6 +163,13 @@
 [69]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/BigNumAdd.java "BigNumAdd"
 [70]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/DeleteNode.java "DeleteNode"
 [71]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/Combination.java "Combination"
+[72]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/DigitAtIndex.java "DigitAtIndex"
+[73]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/GetTranslation.java "GetTranslation"
+[74]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/GetMaxValue.java "GetMaxValue"
+[75]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/LongestSubstringWithoutDuplication.java "LongestSubstringWithoutDuplication"
+[76]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/GetMissingNumber.java "GetMissingNumber"
+[77]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/GetNumberSameAsIndex.java "GetNumberSameAsIndex"
+[77]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/FindNumberAppearingOnce.java "FindNumberAppearingOnce"
 
 
 

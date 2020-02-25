@@ -27,4 +27,40 @@ public class NumberOf1Between1AndN {
     return count;
   }
 
+  public int NumberOf1Between1AndN_Solution2(int n) {
+    return numberOf1Between1AndN_Solution("" + n);
+  }
+
+  public int numberOf1Between1AndN_Solution(String num) { //21345
+    int first = num.charAt(0)-'0';
+    int length = num.length();
+    if (length == 1 && first >= 1) {
+      return 1;
+    }
+    if (length == 1 && first == 0) {
+      return 0;
+    }
+    // 最高位中1的个数    1346-21345中万位1个数
+    int highNumOf1 = 0;
+    if (first > 1) {
+      highNumOf1 = (int) Math.pow(10, length-1);
+    } else {
+      highNumOf1 = Integer.parseInt(num.substring(1))+1;
+    }
+
+    // 其余位出现1   1346-11345，11345-21345 10^3*2*4
+    int otherNumOf1 = (int) Math.pow(10, length-2) * (length-1)* first;
+
+    //  1-1345
+    int other = numberOf1Between1AndN_Solution(num.substring(1));
+    return highNumOf1+otherNumOf1+other;
+  }
+
+  public static void main(String[] args) {
+    int i = new NumberOf1Between1AndN().NumberOf1Between1AndN_Solution(21345);
+    int i2 = new NumberOf1Between1AndN().NumberOf1Between1AndN_Solution2(21345);
+    System.out.println(i);
+    System.out.println(i2);
+  }
+
 }
