@@ -73,7 +73,7 @@
 | 61#->54 | [二叉搜索树的第k个结点][nkw61] | [Java][61]
 | 62*-41 | [数据流中的中位数][nkw62] | [Java][62]
 | 63* | [滑动窗口最大值][nkw63] | [Java][63]
-| 64 | [矩阵中路径][nkw64] | [Java][64]
+| 64#->59 | [矩阵中路径][nkw64] | [Java][64]
 | 65* | [机器人的运动范围][nkw65] | [Java][65]
 | 66* | [剪绳子][nkw66] | [Java][66]
 | 67* | [两个队列实现栈] | [Java][67]
@@ -87,7 +87,8 @@
 | 75*->48 | [最长不含重复字符的子字符串] | [Java][75]
 | 76#->53(2) | [0~n-1中缺失的数字] | [Java][76]
 | 77#->53(3) | [数组中数值与下标相等] | [Java][77]
-| 78*->56(2) | [数组中唯一只出现了一次的数字] | [Java][77]
+| 78*->56(2) | [数组中唯一只出现了一次的数字] | [Java][78]
+| 79*->59(2) | [队列的最大值] | [Java][79]
 
 
 [^_^]: github链接
@@ -131,7 +132,7 @@
 [38]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/TreeDepth.java "TreeDepth"
 [38(2)]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/IsBalancedTree.java "IsBalancedTree"
 [39]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/FindNumsAppearOnce.java "FindNumsAppearOnce"
-[40]: *
+[40]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/FindNumberAppearingOnce.java "FindNumberAppearingOnce"
 [41]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/FindNumbersWithSum.java "FindNumbersWithSum"
 [42]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/LeftRotateString.java "LeftRotateString"
 [43]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/ReverseSentence.java "ReverseSentence"
@@ -154,7 +155,7 @@
 [60]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/SerializeTree.java "SerializeTree"
 [61]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/KthNodeInTree.java "KthNodeInTree"
 [62]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/DataStreamMedian.java "DataStreamMedian"
-[63]: *
+[63]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/MaxInWindows.java "MaxInWindows"
 [64]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/MatrixHasPath.java "MatrixHasPath"
 [65]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/RobotMovingCount.java "RobotMovingCount"
 [66]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/CutRope.java "CutRope"
