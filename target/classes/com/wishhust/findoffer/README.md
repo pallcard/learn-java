@@ -54,9 +54,9 @@
 | 42 | [左旋转字符串][nkw42] | [Java][42]
 | 43 | [翻转单词顺序列][nkw43] | [Java][43]
 | 44 | [扑克牌顺子][nkw44] | [Java][44]
-| 45 | [圆圈最后剩下的数][nkw45] | [Java][45]
+| 45#->62 | [圆圈最后剩下的数][nkw45] | [Java][45]
 | 46 | [限制求和][nkw46] | [Java][46]
-| 47* | [限制相加][nkw47] | [Java][47]
+| 47*->65 | [限制相加][nkw47] | [Java][47]
 | 48 | [把字符串转换为整数][nkw48] | [Java][48]
 | 49# | [数组中重复的数字][nkw49] | [Java][49]
 | 50 | [构建乘积数组][nkw50] | [Java][50]
@@ -89,6 +89,7 @@
 | 77#->53(3) | [数组中数值与下标相等] | [Java][77]
 | 78*->56(2) | [数组中唯一只出现了一次的数字] | [Java][78]
 | 79*->59(2) | [队列的最大值] | [Java][79]
+| 80*->63 | [股票的最大利润] | [Java][80]
 
 
 [^_^]: github链接
@@ -139,7 +140,7 @@
 [44]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/IsContinuous.java "IsContinuous"
 [45]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/LastRemaining.java "LastRemaining"
 [46]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/RestrictSum.java "RestrictSum"
-[47]: *
+[47]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/RestrictAdd.java "RestrictAdd"
 [48]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/StrToInt.java "StrToInt"
 [49]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/DuplicateInArray.java "DuplicateInArray"
 [50]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/MultiplyArray.java "MultiplyArray"
@@ -170,7 +171,9 @@
 [75]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/LongestSubstringWithoutDuplication.java "LongestSubstringWithoutDuplication"
 [76]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/GetMissingNumber.java "GetMissingNumber"
 [77]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/GetNumberSameAsIndex.java "GetNumberSameAsIndex"
-[77]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/FindNumberAppearingOnce.java "FindNumberAppearingOnce"
+[78]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/FindNumberAppearingOnce.java "FindNumberAppearingOnce"
+[79]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/QueueWithMax.java "QueueWithMax"
+[80]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/findoffer/MaxDiff.java "MaxDiff"
 
 
 

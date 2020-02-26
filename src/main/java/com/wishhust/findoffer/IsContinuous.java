@@ -7,6 +7,13 @@ package com.wishhust.findoffer;
  * 并且A看作1,J为11,Q为12,K为13。上面的5张牌就可以变成“1,2,3,4,5”(大小王分别看作2和4),“So Lucky!”。
  * LL决定去买体育彩票啦。 现在,要求你使用这幅牌模拟上面的过程,然后告诉我们LL的运气如何，
  * 如果牌能组成顺子就输出true，否则就输出false。为了方便起见,你可以认为大小王是0。
+ *
+ * 从扑克牌中随机抽5张牌，判断是不是一个顺子，即这5张牌是不是连续的。
+ * 2-10数字本身，A为1，J为11，Q为12，K为13，大小王可以看出任意的数字。
+ *
+ * 统计0的个数 a，
+ * 统计数组中间隔的个数 b。
+ * 当d >= b时，返回true，否则返回false
  */
 public class IsContinuous {
   public boolean isContinuous(int [] numbers) {

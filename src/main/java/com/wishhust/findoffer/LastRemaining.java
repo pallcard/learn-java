@@ -32,9 +32,20 @@ public class LastRemaining {
     }
     return stu.get(0);
   }
-
+  public int LastRemaining_Solution2(int n, int m) {
+    if (n < 1 || m < 1) {
+      return -1;
+    }
+    int last = 0;
+    for (int i = 2; i <= n; i++) {
+      last = (last + m) % i;
+    }
+    return last;
+  }
   public static void main(String[] args) {
     int i = new LastRemaining().LastRemaining_Solution(2, 1);
+    int j = new LastRemaining().LastRemaining_Solution2(2, 1);
     System.out.println(i);
+    System.out.println(j);
   }
 }
