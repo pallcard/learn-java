@@ -41,7 +41,7 @@ public class ExcelService {
    * @throws IOException
    */
   public <T> List<T> readExcel(File file, ExcelDataListener<T> listener,
-      Class<? extends BaseRowModel> cls) throws IOException {
+      Class<? extends BaseRowModel > cls) throws IOException {
     FileInputStream fileInputStream = new FileInputStream(file);
     ExcelReader reader = EasyExcelFactory.getReader(fileInputStream, listener);
     List<Sheet> sheets = reader.getSheets();
