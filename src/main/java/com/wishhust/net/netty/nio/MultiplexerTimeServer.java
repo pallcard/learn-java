@@ -16,12 +16,17 @@ public class MultiplexerTimeServer implements Runnable {
   private ServerSocketChannel servChannel;
   private volatile boolean stop;
 
+  /**
+   * 初始化多路复用器，绑定监听端口
+   * @param port
+   */
   public MultiplexerTimeServer(int port) {
     try {
       selector = Selector.open();
       servChannel = ServerSocketChannel.open();
       servChannel.configureBlocking(false);
       servChannel.socket().bind(new InetSocketAddress(port), 1024);
+      servChannel.register(selector, SelectionKey.OP_ACCEPT);
       System.out.println("The time server is start in port : "+ port);
     } catch (IOException e) {
       e.printStackTrace();
@@ -33,17 +38,18 @@ public class MultiplexerTimeServer implements Runnable {
     this.stop = true;
   }
 
-
   @Override
   public void run() {
     while (!stop) {
       try {
+        // 当有处于就绪状态的Channel时，selector将返回改Channel的SelectionKey集合。
         selector.select(1000);
         Set<SelectionKey> selectionKeys = selector.selectedKeys();
         Iterator<SelectionKey> it = selectionKeys.iterator();
         SelectionKey key = null;
         while (it.hasNext()) {
           key = it.next();
+          it.remove();
           try {
             handleInput(key);
           } catch (IOException e) {
@@ -66,9 +72,11 @@ public class MultiplexerTimeServer implements Runnable {
   private void handleInput(SelectionKey key) throws IOException {
     if (key.isValid()) {
 
+      // 处理新接入的请求消息
       if (key.isAcceptable()) {
         ServerSocketChannel ssc = (ServerSocketChannel) key.channel();
         SocketChannel sc = ssc.accept();
+        // 完成TCP的三次握手，TCP物理链路正式建立
         sc.configureBlocking(false);
         sc.register(selector, SelectionKey.OP_READ);
       }
@@ -78,6 +86,7 @@ public class MultiplexerTimeServer implements Runnable {
         ByteBuffer readBuffer = ByteBuffer.allocate(1024);
         int readBytes = sc.read(readBuffer);
         if (readBytes > 0) {
+          // 将缓冲区 limit设置为position, position设置为0
           readBuffer.flip();
           byte[] bytes = new byte[readBuffer.remaining()];
           readBuffer.get(bytes);
