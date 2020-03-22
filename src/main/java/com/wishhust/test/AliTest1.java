@@ -42,6 +42,14 @@ public class AliTest1 {
     return opt[strs.size()-1];
   }
 
+  // n个非递减的字符串，拼出非递减的最长的字符串。
+  // 输入： 4
+  //        aaa
+  //        bcd
+  //        zzz
+  //        bcdef
+  // 输出： 11
+
   public static void main(String[] args) {
 
     int input = new AliTest1().input();
