@@ -1,4 +1,4 @@
-package com.wishhust.test;
+package com.wishhust.interview.alibaba;
 
 import java.util.ArrayList;
 import java.util.Comparator;
