@@ -28,13 +28,14 @@ public class SerializableTest {
     student.setName("lk");
     student.setAge(23);
     student.setHobby(new String[]{"read", "run"});
+    // 设置静态变量test=5
     Student.test = 5;
     System.out.println(student);
     //序列化对象到文件中
     ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("test"));
     oos.writeObject(student);
     oos.close();
-    Student.test = 10;
+//    Student.test = 10;
     //反序列化
     File file = new File("test");
     ObjectInputStream ois = new ObjectInputStream(new FileInputStream(file));

@@ -40,7 +40,7 @@ public class Student3 implements Serializable {
         sb.append(h + ",");
       }
     }
-    return "name:" + name + ",age:" + age + ",hobby:" + sb;
+    return "name:" + name + ", age:" + age + ", hobby:" + sb;
   }
 
 

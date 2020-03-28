@@ -12,5 +12,6 @@ public class Test03 {
       int a = (str.charAt(i)-'0')^30000;
     }
     System.out.println(sb);
+    System.out.println(20%-14);
   }
 }
