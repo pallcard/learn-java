@@ -3178,6 +3178,7 @@ public class Arrays {
      */
     @SuppressWarnings("unchecked")
     public static <T> T[] copyOf(T[] original, int newLength) {
+        // 数组对接getClass()得到啥?   =>   T[]
         return (T[]) copyOf(original, newLength, original.getClass());
     }
 
@@ -3209,7 +3210,9 @@ public class Arrays {
         @SuppressWarnings("unchecked")
         T[] copy = ((Object)newType == (Object)Object[].class)
             ? (T[]) new Object[newLength]
-            : (T[]) Array.newInstance(newType.getComponentType(), newLength);
+            : (T[]) Array.newInstance(newType.getComponentType(), newLength);  // native 方法实现
+        // class 的 getComponentType() , T[] => T, 非数组返回null
+        // System.arraycopy native方法
         System.arraycopy(original, 0, copy, 0,
                          Math.min(original.length, newLength));
         return copy;

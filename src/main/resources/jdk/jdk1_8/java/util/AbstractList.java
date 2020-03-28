@@ -352,10 +352,13 @@ public abstract class AbstractList<E> extends AbstractCollection<E> implements L
         }
 
         public E next() {
+            // 检查是否发生并发修改操作
             checkForComodification();
             try {
                 int i = cursor;
+                // 调用子类的get(i)
                 E next = get(i);
+                // 记录上一次迭代位置
                 lastRet = i;
                 cursor = i + 1;
                 return next;
@@ -371,9 +374,12 @@ public abstract class AbstractList<E> extends AbstractCollection<E> implements L
             checkForComodification();
 
             try {
+                // 内部类和其外部类有同名的方法，那么在内部类中如果要调用外部类的该方法，要用外部类.this.方法()
+                // 调用需要子类实现的 remove()方法
                 AbstractList.this.remove(lastRet);
                 if (lastRet < cursor)
                     cursor--;
+                //删除后 上次迭代的记录就会置为 -1
                 lastRet = -1;
                 expectedModCount = modCount;
             } catch (IndexOutOfBoundsException e) {
@@ -388,6 +394,7 @@ public abstract class AbstractList<E> extends AbstractCollection<E> implements L
     }
 
     private class ListItr extends Itr implements ListIterator<E> {
+        // 多了个指定游标位置的构造参数，怎么都不检查是否越界！
         ListItr(int index) {
             cursor = index;
         }

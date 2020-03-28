@@ -967,6 +967,7 @@ public class LinkedList<E>
         }
     }
 
+    // 双向链表结点
     private static class Node<E> {
         E item;
         Node<E> next;
@@ -987,7 +988,7 @@ public class LinkedList<E>
     }
 
     /**
-     * Adapter to provide descending iterators via ListItr.previous
+     * Adapter to provide descending (递减) iterators via ListItr.previous
      */
     private class DescendingIterator implements Iterator<E> {
         private final ListItr itr = new ListItr(size());

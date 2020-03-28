@@ -349,6 +349,7 @@ public class Collections {
         ListIterator<? extends T> i = l.listIterator();
 
         while (low <= high) {
+            // 无符号右移
             int mid = (low + high) >>> 1;
             T midVal = get(i, mid);
             int cmp = c.compare(midVal, key);

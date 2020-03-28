@@ -132,6 +132,10 @@ public class ArrayList<E> extends AbstractList<E>
      * empty ArrayList with elementData == DEFAULTCAPACITY_EMPTY_ELEMENTDATA
      * will be expanded to DEFAULT_CAPACITY when the first element is added.
      */
+    // transient关键字声明数组默认不会被序列化
+    // ArrayList 基于数组实现，并且具有动态扩容特性，
+    // 因此保存元素的数组不一定都会被使用，那么就没必要全部进行序列化。
+    // ArrayList 实现了 writeObject() 和 readObject() 来控制只序列化数组中有元素填充那部分内容
     transient Object[] elementData; // non-private to simplify nested class access
 
     /**
@@ -220,6 +224,7 @@ public class ArrayList<E> extends AbstractList<E>
         }
     }
 
+    // elementData为空则返回最新需要的容量和默认容量的较大值
     private static int calculateCapacity(Object[] elementData, int minCapacity) {
         if (elementData == DEFAULTCAPACITY_EMPTY_ELEMENTDATA) {
             return Math.max(DEFAULT_CAPACITY, minCapacity);
@@ -228,12 +233,12 @@ public class ArrayList<E> extends AbstractList<E>
     }
 
     private void ensureCapacityInternal(int minCapacity) {
+        // 增加修改次数 并扩大数组容量(可能，只有当最新的容量大于当前数组的容量时进行扩容)
         ensureExplicitCapacity(calculateCapacity(elementData, minCapacity));
     }
 
     private void ensureExplicitCapacity(int minCapacity) {
         modCount++;
-
         // overflow-conscious code
         if (minCapacity - elementData.length > 0)
             grow(minCapacity);
@@ -245,6 +250,7 @@ public class ArrayList<E> extends AbstractList<E>
      * Attempts to allocate larger arrays may result in
      * OutOfMemoryError: Requested array size exceeds VM limit
      */
+    // 为啥-8
     private static final int MAX_ARRAY_SIZE = Integer.MAX_VALUE - 8;
 
     /**
@@ -256,15 +262,18 @@ public class ArrayList<E> extends AbstractList<E>
     private void grow(int minCapacity) {
         // overflow-conscious code
         int oldCapacity = elementData.length;
-        int newCapacity = oldCapacity + (oldCapacity >> 1);
+        int newCapacity = oldCapacity + (oldCapacity >> 1); // 1.5倍
         if (newCapacity - minCapacity < 0)
             newCapacity = minCapacity;
+        // MAX_ARRAY_SIZE = Integer.MAX_VALUE - 8;
         if (newCapacity - MAX_ARRAY_SIZE > 0)
             newCapacity = hugeCapacity(minCapacity);
         // minCapacity is usually close to size, so this is a win:
+        // 创建新数组并进行元素复制
         elementData = Arrays.copyOf(elementData, newCapacity);
     }
 
+    // size:int 容量可以达到 Integer.MAX_VALUE（minCapacity>MAX_ARRAY_SIZE）
     private static int hugeCapacity(int minCapacity) {
         if (minCapacity < 0) // overflow
             throw new OutOfMemoryError();
@@ -459,6 +468,7 @@ public class ArrayList<E> extends AbstractList<E>
      * @return <tt>true</tt> (as specified by {@link Collection#add})
      */
     public boolean add(E e) {
+        // 确保list的容量够添加元素
         ensureCapacityInternal(size + 1);  // Increments modCount!!
         elementData[size++] = e;
         return true;
@@ -500,6 +510,7 @@ public class ArrayList<E> extends AbstractList<E>
 
         int numMoved = size - index - 1;
         if (numMoved > 0)
+            // 将index之后元素向前移动
             System.arraycopy(elementData, index+1, elementData, index,
                              numMoved);
         elementData[--size] = null; // clear to let GC do its work
@@ -691,6 +702,7 @@ public class ArrayList<E> extends AbstractList<E>
      */
     public boolean removeAll(Collection<?> c) {
         Objects.requireNonNull(c);
+        // 移动元素后， 其余放置为空
         return batchRemove(c, false);
     }
 
@@ -715,6 +727,9 @@ public class ArrayList<E> extends AbstractList<E>
         return batchRemove(c, true);
     }
 
+    // elementData: 1 2 3 4 5
+    // c: 2 3
+    // complement: false
     private boolean batchRemove(Collection<?> c, boolean complement) {
         final Object[] elementData = this.elementData;
         int r = 0, w = 0;
@@ -752,6 +767,7 @@ public class ArrayList<E> extends AbstractList<E>
      *             instance is emitted (int), followed by all of its elements
      *             (each an <tt>Object</tt>) in the proper order.
      */
+    // 为序列化数组
     private void writeObject(java.io.ObjectOutputStream s)
         throws java.io.IOException{
         // Write out element count, and any hidden stuff
@@ -775,6 +791,7 @@ public class ArrayList<E> extends AbstractList<E>
      * Reconstitute the <tt>ArrayList</tt> instance from a stream (that is,
      * deserialize it).
      */
+    // 反序列化数组
     private void readObject(java.io.ObjectInputStream s)
         throws java.io.IOException, ClassNotFoundException {
         elementData = EMPTY_ELEMENTDATA;
