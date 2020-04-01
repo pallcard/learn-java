@@ -780,6 +780,7 @@ public class Vector<E>
      * @return {@code true} (as specified by {@link Collection#add})
      * @since 1.2
      */
+    // 使用了synchronized进行同步
     public synchronized boolean add(E e) {
         modCount++;
         ensureCapacityHelper(elementCount + 1);

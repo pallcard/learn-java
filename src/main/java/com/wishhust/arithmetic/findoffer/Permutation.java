@@ -27,7 +27,7 @@ public class Permutation {
       return;
     }
     for (int i = 0; i < str.length(); i++) {
-      if (!visited[i]) {
+      if (!visited[i]) { // 避免出现aaa的情况
         sb.append(str.charAt(i));
         visited[i] = true;
         dfs(str, list,sb, visited);
