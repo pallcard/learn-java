@@ -9,6 +9,7 @@ public class ReentrantLockTest {
   public static volatile int count = 0;
 
   public static void main(String[] args) throws InterruptedException {
+//    ReentrantLock lock = new ReentrantLock(true);
     ReentrantLock lock = new ReentrantLock();
     ExecutorService executorService = Executors.newFixedThreadPool(5);
     for (int i = 0; i < 5; i++) {
@@ -16,7 +17,7 @@ public class ReentrantLockTest {
         lock.lock();
         System.out.println(Thread.currentThread().getName()+ " start");
         for (int j = 0; j < 10; j++) {
-          count++;
+          System.out.println(Thread.currentThread().getName()+ " " +count++);
         }
         System.out.println(Thread.currentThread().getName()+ " end");
         lock.unlock();
