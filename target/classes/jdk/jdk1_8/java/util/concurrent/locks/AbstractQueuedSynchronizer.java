@@ -642,7 +642,7 @@ public abstract class AbstractQueuedSynchronizer
          * fails or if status is changed by waiting thread.
          */
         int ws = node.waitStatus;
-        if (ws < 0) // // 将头节点的状态设置为0, 尝试清除头节点的状态，改为初始状态
+        if (ws < 0) // 将头节点的状态设置为0, 尝试清除头节点的状态，改为初始状态
             compareAndSetWaitStatus(node, ws, 0);
 
         /*
