@@ -6,7 +6,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class ReentrantLockTest {
 
-  public static volatile int count = 0;
+  public static int count = 0;
 
   public static void main(String[] args) throws InterruptedException {
 //    ReentrantLock lock = new ReentrantLock(true);
@@ -15,6 +15,11 @@ public class ReentrantLockTest {
     for (int i = 0; i < 5; i++) {
       executorService.execute(()->{
         lock.lock();
+//        try {
+//          lock.lockInterruptibly();
+//        } catch (InterruptedException e) {
+//          e.printStackTrace();
+//        }
         System.out.println(Thread.currentThread().getName()+ " start");
         for (int j = 0; j < 10; j++) {
           System.out.println(Thread.currentThread().getName()+ " " +count++);

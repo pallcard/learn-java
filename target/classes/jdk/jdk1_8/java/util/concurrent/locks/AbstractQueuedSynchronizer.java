@@ -824,7 +824,7 @@ public abstract class AbstractQueuedSynchronizer
      * Convenience method to interrupt current thread.
      */
     static void selfInterrupt() {
-        Thread.currentThread().interrupt();
+        Thread.currentThread().interrupt(); // 设置中断状态
     }
 
     /**
@@ -834,7 +834,7 @@ public abstract class AbstractQueuedSynchronizer
      */
     private final boolean parkAndCheckInterrupt() {
         LockSupport.park(this); //LockSupport 是用来创建锁和其他同步类的基本线程阻塞原语。
-        return Thread.interrupted();
+        return Thread.interrupted();  // 该方法调用后会将中断标示位清除，即重新设置为false，主要用于lockInterruptibly，调用lock无用，但是由于此处会改变中断状态，之后需要还原
     }
 
     /*

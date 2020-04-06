@@ -122,7 +122,7 @@ public class LockSupport {
 
     private static void setBlocker(Thread t, Object arg) {
         // Even though volatile, hotspot doesn't need a write barrier here.
-        UNSAFE.putObject(t, parkBlockerOffset, arg);
+        UNSAFE.putObject(t, parkBlockerOffset, arg);// 设置线程t的parkBlocker字段的值为arg
     }
 
     /**
@@ -171,9 +171,9 @@ public class LockSupport {
      */
     public static void park(Object blocker) {
         Thread t = Thread.currentThread();
-        setBlocker(t, blocker);
+        setBlocker(t, blocker); // 使用Unsafe设置线程Blocker, 设置当前线程阻塞的原因，可以方便调试（线程在哪个对象上阻塞了）
         UNSAFE.park(false, 0L);
-        setBlocker(t, null);
+        setBlocker(t, null); // 设置Blocker为null
     }
 
     /**

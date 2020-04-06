@@ -394,9 +394,9 @@ public final class Unsafe {
   /**
    * 线程调度
    */
-  // 取消阻塞线程
+  // 取消阻塞线程,释放线程的许可，即激活调用park后阻塞的线程。这个函数不是安全的，调用这个函数时要确保线程依旧存活。
   public native void unpark(Object var1);
-  // 阻塞线程
+  // 阻塞线程,并且该线程在下列情况发生之前都会被阻塞：① 调用unpark函数，释放该线程的许可。② 该线程被中断。③ 设置的时间到了。
   public native void park(boolean var1, long var2);
 
   public native int getLoadAverage(double[] var1, int var2);

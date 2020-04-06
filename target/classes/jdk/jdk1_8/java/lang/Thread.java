@@ -145,28 +145,28 @@ class Thread implements Runnable {
         registerNatives();
     }
 
-    private volatile String name;
-    private int            priority;
-    private Thread         threadQ;
+    private volatile String name;      // 线程名称
+    private int            priority;   // 优先级，1~10
+    private Thread         threadQ;    // 实际被执行的对象
     private long           eetop;
 
     /* Whether or not to single_step this thread. */
     private boolean     single_step;
 
     /* Whether or not the thread is a daemon thread. */
-    private boolean     daemon = false;
+    private boolean     daemon = false; // 是否为守护线程
 
     /* JVM state */
     private boolean     stillborn = false;
 
     /* What will be run. */
-    private Runnable target;
+    private Runnable target;   // 实际被执行的对象
 
     /* The group of this thread */
     private ThreadGroup group;
 
     /* The context ClassLoader for this thread */
-    private ClassLoader contextClassLoader;
+    private ClassLoader contextClassLoader; // 这个线程的上下文类加载器
 
     /* The inherited AccessControlContext of this thread */
     private AccessControlContext inheritedAccessControlContext;
@@ -179,7 +179,7 @@ class Thread implements Runnable {
 
     /* ThreadLocal values pertaining to this thread. This map is maintained
      * by the ThreadLocal class. */
-    ThreadLocal.ThreadLocalMap threadLocals = null;
+    ThreadLocal.ThreadLocalMap threadLocals = null;   // 当前线程的数据
 
     /*
      * InheritableThreadLocal values pertaining to this thread. This map is
@@ -202,7 +202,7 @@ class Thread implements Runnable {
     /*
      * Thread ID
      */
-    private long tid;
+    private long tid; // 线程id
 
     /* For generating thread ID */
     private static long threadSeqNumber;
@@ -371,7 +371,7 @@ class Thread implements Runnable {
 
         this.name = name;
 
-        Thread parent = currentThread();
+        Thread parent = currentThread();// 获取当前线程，给新创建的线程设置线程组
         SecurityManager security = System.getSecurityManager();
         if (g == null) {
             /* Determine if it's an applet or not */
@@ -405,8 +405,8 @@ class Thread implements Runnable {
         g.addUnstarted();
 
         this.group = g;
-        this.daemon = parent.isDaemon();
-        this.priority = parent.getPriority();
+        this.daemon = parent.isDaemon();// 使用父线程的属性，是否是守护线程
+        this.priority = parent.getPriority();// 使用父线程的优先级
         if (security == null || isCCLOverridden(parent.getClass()))
             this.contextClassLoader = parent.getContextClassLoader();
         else
@@ -710,15 +710,15 @@ class Thread implements Runnable {
         /* Notify the group that this thread is about to be started
          * so that it can be added to the group's list of threads
          * and the group's unstarted count can be decremented. */
-        group.add(this);
+        group.add(this); // 通知group， 这个线程要执行了，所以可以添加进group中，并且这个线程组中没有没有启动的数量将减少。
 
         boolean started = false;
         try {
-            start0();
+            start0();  // native方法
             started = true;
         } finally {
             try {
-                if (!started) {
+                if (!started) {// 通知gorop启动失败
                     group.threadStartFailed(this);
                 }
             } catch (Throwable ignore) {
@@ -1238,9 +1238,9 @@ class Thread implements Runnable {
      *          <i>interrupted status</i> of the current thread is
      *          cleared when this exception is thrown.
      */
-    public final synchronized void join(long millis)
+    public final synchronized void join(long millis) // 100
     throws InterruptedException {
-        long base = System.currentTimeMillis();
+        long base = System.currentTimeMillis(); //  1000
         long now = 0;
 
         if (millis < 0) {
@@ -1248,17 +1248,17 @@ class Thread implements Runnable {
         }
 
         if (millis == 0) {
-            while (isAlive()) {
+            while (isAlive()) { // 如果是活跃的的
                 wait(0);
             }
         } else {
             while (isAlive()) {
-                long delay = millis - now;
+                long delay = millis - now;  // 100
                 if (delay <= 0) {
                     break;
                 }
                 wait(delay);
-                now = System.currentTimeMillis() - base;
+                now = System.currentTimeMillis() - base; // 1100-100
             }
         }
     }
@@ -1355,7 +1355,7 @@ class Thread implements Runnable {
      */
     public final void setDaemon(boolean on) {
         checkAccess();
-        if (isAlive()) {
+        if (isAlive()) {//启动了在设置会抛异常
             throw new IllegalThreadStateException();
         }
         daemon = on;
