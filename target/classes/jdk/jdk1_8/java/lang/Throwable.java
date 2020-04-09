@@ -128,7 +128,7 @@ public class Throwable implements Serializable {
      *
      * @serial
      */
-    private String detailMessage;
+    private String detailMessage;//  描述此异常的信息
 
 
     /**
@@ -195,7 +195,7 @@ public class Throwable implements Serializable {
      * @serial
      * @since 1.4
      */
-    private Throwable cause = this;
+    private Throwable cause = this; // 表示当前异常由哪个Throwable引起
 
     /**
      * The stack trace, as returned by {@link #getStackTrace()}.
@@ -208,7 +208,7 @@ public class Throwable implements Serializable {
      * @serial
      * @since 1.4
      */
-    private StackTraceElement[] stackTrace = UNASSIGNED_STACK;
+    private StackTraceElement[] stackTrace = UNASSIGNED_STACK; // 描述异常轨迹的数组
 
     // Setting this static field introduces an acceptable
     // initialization dependency on a few java.util classes.
@@ -248,7 +248,7 @@ public class Throwable implements Serializable {
      * the stack trace data in the newly created throwable.
      */
     public Throwable() {
-        fillInStackTrace();
+        fillInStackTrace(); // 初始化它的异常轨迹的数组
     }
 
     /**
@@ -264,7 +264,7 @@ public class Throwable implements Serializable {
      */
     public Throwable(String message) {
         fillInStackTrace();
-        detailMessage = message;
+        detailMessage = message;//初始化异常描述信息
     }
 
     /**
@@ -451,14 +451,14 @@ public class Throwable implements Serializable {
      *         {@link #Throwable(String,Throwable)}, or this method has already
      *         been called on this throwable.
      * @since  1.4
-     */
+     */ // 初始化起因对象,这个方法只能在未被初始化的情况下调用一次
     public synchronized Throwable initCause(Throwable cause) {
         if (this.cause != this)
             throw new IllegalStateException("Can't overwrite cause with " +
                                             Objects.toString(cause, "a null"), this);
         if (cause == this)
             throw new IllegalArgumentException("Self-causation not permitted", this);
-        this.cause = cause;
+        this.cause = cause;//设置起因对象
         return this;
     }
 
