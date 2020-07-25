@@ -12,7 +12,7 @@ public class RateLimiter {
     public static boolean tryAcquire() {
 
         //TODO
-        if (atomicInteger.compareAndSet())
+//        if (atomicInteger.compareAndSet())
 
         return false;
 
