@@ -1,5 +1,7 @@
 package com.wishhust.arithmetic.leetcode;
 
+import apple.laf.JRSUIUtils;
+
 import java.util.*;
 
 public class Base {
@@ -39,7 +41,51 @@ public class Base {
         stack.push(3);
         stack.pop();
 
+        System.out.println("-------------");
+
+        TreeNode treeNode = array2tree(new String[]{"-10", "9", "20", null, null, "15", "20"});
+        System.out.println();
+
     }
+
+//    [-10,9,20,null,null,15,7]
+    public static TreeNode array2tree(String[] array){
+        int index = 0;
+
+        TreeNode root = new TreeNode(Integer.parseInt(array[index++]));
+
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+
+        while (index < array.length && !queue.isEmpty()) {
+            TreeNode rootTemp = queue.poll();
+            TreeNode left = null;
+            if (array[index] != null) {
+                left = new TreeNode(Integer.parseInt(array[index++]));
+                queue.add(left);
+            } else {
+                index++;
+            }
+            rootTemp.left = left;
+            if (index == array.length) {
+                break;
+            }
+
+            TreeNode right = null;
+            if (array[index] != null) {
+                right = new TreeNode(Integer.parseInt(array[index++]));
+                queue.add(right);
+            } else {
+                index++;
+            }
+            rootTemp.right = right;
+        }
+
+        return root;
+    }
+
+
+
 }
 
 class TreeNode {
