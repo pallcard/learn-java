@@ -97,3 +97,53 @@ class TreeNode {
         val = x;
     }
 }
+
+class Node {
+    int key, value;
+    Node pre, next;
+    public Node(int k, int v) {
+        this.key = k;
+        this.value = v;
+    }
+}
+
+class DoubleList {
+    Node head, tail;
+    int size;
+
+    public DoubleList() {
+        this.head = new Node(0, 0);
+        this.tail = new Node(0, 0);
+        head.next = tail;
+        tail.pre = head;
+    }
+
+    // 尾插入
+    public void addLast(Node node) {
+        node.pre = tail.pre;
+        node.next = tail;
+        node.pre.next = node;
+        tail.pre = node;
+        size++;
+    }
+
+    // 删除指定节点
+    public void delNode(Node node) {
+        node.pre.next = node.next;
+        node.next.pre = node.pre;
+        size--;
+    }
+
+    // 删除首节点
+    public Node delFirst() {
+        // 没有节点
+        if (head.next == tail) {
+            return null;
+        }
+        Node node = head.next;
+        head.next = head.next.next;
+        head.next.pre = head;
+        size--;
+        return node;
+    }
+}
