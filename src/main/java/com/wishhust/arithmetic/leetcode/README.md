@@ -21,6 +21,7 @@
 | 392 | [分割数组的最大值][leetcode392] | [Java][392]|
 | 410 | [分割数组的最大值][leetcode410] | [Java][410]|
 | 450 | [删除二叉搜索树中的节点][leetcode450] | [Java][450]|
+| 496 | [下一个更大元素 I][leetcode496] | [Java][496]|
 | 700 | [二叉搜索树中的搜索][leetcode700] | [Java][700]|
 | 701 | [二叉搜索树中的插入操作][leetcode701] | [Java][701]|
 | 1025 | [除数博弈][leetcode1025] | [Java][1025]|
@@ -39,6 +40,7 @@
 [329]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/arithmetic/leetcode/Leetcode392.java ""
 [410]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/arithmetic/leetcode/Leetcode410.java ""
 [450]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/arithmetic/leetcode/Leetcode450.java ""
+[496]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/arithmetic/leetcode/Leetcode496.java ""
 [700]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/arithmetic/leetcode/Leetcode700.java ""
 [701]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/arithmetic/leetcode/Leetcode701.java ""
 [1025]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/arithmetic/leetcode/Leetcode1025.java ""
@@ -58,6 +60,7 @@
 [leetcode392]: https://leetcode-cn.com/problems/is-subsequence/
 [leetcode410]: https://leetcode-cn.com/problems/split-array-largest-sum/
 [leetcode450]: https://leetcode-cn.com/problems/delete-node-in-a-bst/
+[leetcode496]: https://leetcode-cn.com/problems/next-greater-element-i/
 [leetcode700]: https://leetcode-cn.com/problems/search-in-a-binary-search-tree/
 [leetcode701]: https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/
 [leetcode1025]: https://leetcode-cn.com/problems/divisor-game/
