@@ -34,6 +34,14 @@ public class Base {
         priorityQueue.add(3);
         priorityQueue.poll();
 
+        // 双端队列
+        Deque<Integer> deque = new LinkedList<>();
+        deque.push(1);
+        deque.push(2);
+        deque.push(3);
+        deque.pollLast();
+
+
         // 栈
         Stack<Integer> stack = new Stack<>();
         stack.push(1);
