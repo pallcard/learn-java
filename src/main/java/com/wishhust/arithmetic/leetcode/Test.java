@@ -30,5 +30,6 @@ public class Test {
             max = Math.max(max, count);
         }
         System.out.println(max);
+        System.out.printf("%0.2f", 1.23342342);
     }
 }
