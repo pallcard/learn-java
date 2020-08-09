@@ -6,9 +6,12 @@
 
 \# 题解有优化
 
+**java 做leetcode题 全局变量不要使用static修饰**
+
 |题号|题目|解答
 |-|-|-
 | 64 | [最小路径和][leetcode64] | [Java][64]|
+| 93 | [复原IP地址][leetcode93] | [Java][93]|
 | 98 | [验证二叉搜索树][leetcode98] | [Java][98]|
 | 99 | [恢复二叉搜索树][leetcode99] | [Java][99]|
 | 100 | [相同的树][leetcode100] | [Java][100]|
@@ -33,6 +36,7 @@
 
 [^_^]: github链接
 [64]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/arithmetic/leetcode/Leetcode64.java ""
+[93]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/arithmetic/leetcode/Leetcode93.java ""
 [98]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/arithmetic/leetcode/Leetcode98.java ""
 [99]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/arithmetic/leetcode/Leetcode99.java ""
 [100]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/arithmetic/leetcode/Leetcode100.java ""
@@ -58,6 +62,7 @@
 
 [^_^]: leetcode链接
 [leetcode64]: https://leetcode-cn.com/problems/minimum-path-sum/
+[leetcode93]: https://leetcode-cn.com/problems/restore-ip-addresses/
 [leetcode98]: https://leetcode-cn.com/problems/validate-binary-search-tree/
 [leetcode99]: https://leetcode-cn.com/problems/recover-binary-search-tree/
 [leetcode100]: https://leetcode-cn.com/problems/same-tree/
