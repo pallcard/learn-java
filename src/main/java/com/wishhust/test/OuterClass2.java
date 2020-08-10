@@ -58,4 +58,6 @@ public class OuterClass2 {
     OuterClass2 outer = new OuterClass2();
     outer.display();
   }
+
 }
+
