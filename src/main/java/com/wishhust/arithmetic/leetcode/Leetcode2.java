@@ -2,6 +2,8 @@ package com.wishhust.arithmetic.leetcode;
 
 import com.wishhust.arithmetic.findoffer.ListNode;
 
+import java.util.ArrayList;
+
 public class Leetcode2 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode p = l1;
