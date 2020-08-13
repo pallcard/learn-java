@@ -11,6 +11,7 @@
 |题号|题目|解答
 |-|-|-
 | 2 | [两数相加][leetcode2] | [Java][2]|
+| 43 | [字符串相乘][leetcode43] | [Java][43]|
 | 64 | [最小路径和][leetcode64] | [Java][64]|
 | 93 | [复原IP地址][leetcode93] | [Java][93]|
 | 98 | [验证二叉搜索树][leetcode98] | [Java][98]|
@@ -24,6 +25,7 @@
 | 130 | [被围绕的区域][leetcode130] | [Java][130]|
 | 133 | [克隆图][leetcode133] | [Java][133]|
 | 146 | [LRU缓存机制][leetcode146] | [Java][146]|
+| 167 | [LRU缓存机制][leetcode167] | [Java][167]|
 | 207 | [课程表][leetcode207] | [Java][207]|
 | 239 | [滑动窗口最大值][leetcode239] | [Java][239]|
 | 329 | [矩阵中的最长递增路径][leetcode329] | [Java][329]|
@@ -41,6 +43,7 @@
 
 [^_^]: github链接
 [2]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/arithmetic/leetcode/Leetcode2.java ""
+[43]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/arithmetic/leetcode/Leetcode43.java ""
 [64]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/arithmetic/leetcode/Leetcode64.java ""
 [93]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/arithmetic/leetcode/Leetcode93.java ""
 [98]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/arithmetic/leetcode/Leetcode98.java ""
@@ -54,6 +57,7 @@
 [130]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/arithmetic/leetcode/Leetcode130.java ""
 [133]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/arithmetic/leetcode/Leetcode133.java ""
 [146]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/arithmetic/leetcode/Leetcode146.java ""
+[167]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/arithmetic/leetcode/Leetcode167.java ""
 [207]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/arithmetic/leetcode/Leetcode207.java ""
 [239]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/arithmetic/leetcode/Leetcode239.java ""
 [329]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/arithmetic/leetcode/Leetcode329.java ""
@@ -72,6 +76,7 @@
 
 [^_^]: leetcode链接
 [leetcode2]: https://leetcode-cn.com/problems/add-two-numbers/
+[leetcode43]: https://leetcode-cn.com/problems/multiply-strings/
 [leetcode64]: https://leetcode-cn.com/problems/minimum-path-sum/
 [leetcode93]: https://leetcode-cn.com/problems/restore-ip-addresses/
 [leetcode98]: https://leetcode-cn.com/problems/validate-binary-search-tree/
@@ -85,6 +90,7 @@
 [leetcode130]: https://leetcode-cn.com/problems/surrounded-regions/
 [leetcode133]: https://leetcode-cn.com/problems/clone-graph/
 [leetcode146]: https://leetcode-cn.com/problems/lru-cache/
+[leetcode167]: https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/
 [leetcode207]: https://leetcode-cn.com/problems/course-schedule/
 [leetcode239]: https://leetcode-cn.com/problems/sliding-window-maximum/
 [leetcode329]: https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix/
