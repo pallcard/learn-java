@@ -12,5 +12,8 @@ public class Test {
     int co = base + (n*(n/2))+n/2;
     co *= (n*2);
     System.out.println(co);
+
+
+
   }
 }
