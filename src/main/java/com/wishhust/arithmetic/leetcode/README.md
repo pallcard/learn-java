@@ -14,6 +14,7 @@
 | 20 | [有效的括号][leetcode20] | [Java][20]|
 | 43 | [字符串相乘][leetcode43] | [Java][43]|
 | 64 | [最小路径和][leetcode64] | [Java][64]|
+| 76 | [最小覆盖子串][leetcode76] | [Java][76]|
 | 88 | [合并两个有序数组][leetcode88] | [Java][88]|
 | 93 | [复原IP地址][leetcode93] | [Java][93]|
 | 98 | [验证二叉搜索树][leetcode98] | [Java][98]|
@@ -55,6 +56,7 @@
 [20]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/arithmetic/leetcode/Leetcode20.java ""
 [43]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/arithmetic/leetcode/Leetcode43.java ""
 [64]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/arithmetic/leetcode/Leetcode64.java ""
+[76]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/arithmetic/leetcode/Leetcode76.java ""
 [88]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/arithmetic/leetcode/Leetcode88.java ""
 [93]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/arithmetic/leetcode/Leetcode93.java ""
 [98]: https://github.com/pallcard/learn-java/blob/master/src/main/java/com/wishhust/arithmetic/leetcode/Leetcode98.java ""
@@ -98,6 +100,7 @@
 [leetcode20]: https://leetcode-cn.com/problems/valid-parentheses/
 [leetcode43]: https://leetcode-cn.com/problems/multiply-strings/
 [leetcode64]: https://leetcode-cn.com/problems/minimum-path-sum/
+[leetcode76]: https://leetcode-cn.com/problems/minimum-window-substring/
 [leetcode88]: https://leetcode-cn.com/problems/merge-sorted-array/
 [leetcode93]: https://leetcode-cn.com/problems/restore-ip-addresses/
 [leetcode98]: https://leetcode-cn.com/problems/validate-binary-search-tree/
